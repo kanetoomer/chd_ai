@@ -27,7 +27,7 @@ import { AuthProvider } from "./context/AuthContext";
 import { DatasetProvider } from "./context/DatasetContext";
 
 function App() {
-  const url = "http://localhost:5000/";
+  const url = "https://chd-ai-backend.onrender.com";
   return (
     <AuthProvider>
       <DatasetProvider>
