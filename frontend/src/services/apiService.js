@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://chd-ai-backend.onrender.com/";
+const API_URL = "https://chd-ai-backend.onrender.com";
 
 // Create axios instance with default config
 const axiosInstance = axios.create({
