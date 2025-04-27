@@ -1,0 +1,10 @@
+{
+  "name": "community-health-dashboard",
+  "version": "1.0.0",
+  "description": "A community health dashboard with AI insights",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "server"
+  ]
+}

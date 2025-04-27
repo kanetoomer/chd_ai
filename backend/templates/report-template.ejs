@@ -1,0 +1,207 @@
+<!-- templates/report-template.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= report.name %> - Community Health Dashboard</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #f8f9fa;
+        color: #212529;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: #4a80f0;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .report-meta {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: #6c757d;
+        font-size: 0.9rem;
+      }
+
+      .section {
+        margin-bottom: 40px;
+        background-color: white;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-title {
+        color: #4a80f0;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e9ecef;
+      }
+
+      .insight-item,
+      .visualization-item {
+        margin-bottom: 30px;
+      }
+
+      .insight-title,
+      .visualization-title {
+        color: #495057;
+        margin-bottom: 10px;
+      }
+
+      .insight-content,
+      .visualization-description {
+        color: #6c757d;
+      }
+
+      .visualization-image {
+        width: 100%;
+        max-width: 800px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .ai-badge {
+        display: inline-block;
+        background-color: #17a2b8;
+        color: white;
+        font-size: 0.7rem;
+        padding: 3px 8px;
+        border-radius: 10px;
+        margin-left: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: #6c757d;
+        font-size: 0.8rem;
+      }
+
+      .dataset-info {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #e9ecef;
+        border-radius: 5px;
+      }
+
+      @media print {
+        body {
+          background-color: white;
+        }
+
+        .container {
+          width: 100%;
+          max-width: none;
+        }
+
+        .section {
+          box-shadow: none;
+          break-inside: avoid;
+        }
+
+        header {
+          background-color: #4a80f0 !important;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><%= report.name %></h1>
+        <p>Community Health Dashboard Report</p>
+      </header>
+
+      <div class="report-meta">
+        <div>Generated on: <%= currentDate %> at <%= currentTime %></div>
+        <div>Dataset: <%= report.dataset.name %></div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Report Overview</h2>
+        <div class="dataset-info">
+          <p><strong>Dataset:</strong> <%= report.dataset.name %></p>
+          <p><strong>File Type:</strong> <%= report.dataset.fileType %></p>
+          <p>
+            <strong>Total Rows:</strong> <%= report.dataset.data ?
+            report.dataset.data.length : 'N/A' %>
+          </p>
+          <p>
+            <strong>Created:</strong> <%= new
+            Date(report.dataset.createdAt).toLocaleString() %>
+          </p>
+        </div>
+      </div>
+
+      <% if (report.insights && report.insights.length > 0) { %>
+      <div class="section">
+        <h2 class="section-title">Health Insights</h2>
+
+        <% report.insights.forEach((insight, index) => { %>
+        <div class="insight-item">
+          <h3 class="insight-title">
+            <%= insight.title %> <% if (insight.aiGenerated) { %>
+            <span class="ai-badge">AI Generated</span>
+            <% } %>
+          </h3>
+          <div class="insight-content"><%= insight.content %></div>
+        </div>
+        <% }) %>
+      </div>
+      <% } %> <% if (report.visualizations && report.visualizations.length > 0)
+      { %>
+      <div class="section">
+        <h2 class="section-title">Data Visualizations</h2>
+
+        <% report.visualizations.forEach((viz, index) => { %>
+        <div class="visualization-item">
+          <h3 class="visualization-title"><%= viz.title %></h3>
+
+          <% if (viz.imageData) { %>
+          <img
+            src="<%= viz.imageData %>"
+            alt="<%= viz.title %>"
+            class="visualization-image"
+          />
+          <% } %> <% if (viz.description) { %>
+          <div class="visualization-description"><%= viz.description %></div>
+          <% } %>
+        </div>
+        <% }) %>
+      </div>
+      <% } %>
+
+      <footer>
+        <p>This report was generated by the Community Health Dashboard</p>
+        <p>
+          &copy; <%= new Date().getFullYear() %> Grand Canyon University -
+          Master of Science in Data Science
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,BloodPressure,Cholesterol,BMI,Smoker,Diabetic,PhysicalActivityLevel,Diagnosis
+ba660841,30,Male,145/76,236,25.7,Yes,Yes,High,Heart Disease
+acebc6e1,39,Female,97/98,236,34.2,No,No,Moderate,Heart Disease
+4f6ffa12,86,Other,128/79,205,30.7,No,No,High,Hypertension
+0edc3cff,33,Male,93/63,158,26.7,No,No,Low,Heart Disease
+858810a7,40,Female,154/97,222,29.5,Yes,Yes,High,Hypertension
+95cf339c,86,Female,152/98,267,33.1,Yes,No,Low,Obesity
+0b3bcc38,75,Male,120/71,184,31.7,Yes,No,High,Obesity
+ac1ffc0c,44,Other,148/78,167,40.0,Yes,No,High,Diabetes
+ed241ed5,53,Other,127/75,198,27.7,No,Yes,Low,Hypertension
+09a14949,60,Other,90/75,238,34.2,Yes,Yes,Low,Heart Disease
+48620d43,19,Other,150/91,215,29.0,Yes,No,High,Diabetes
+0ccfa86d,65,Female,99/64,201,30.7,Yes,Yes,Moderate,Diabetes
+9b07229a,49,Male,121/83,217,18.4,Yes,Yes,Low,Diabetes
+ddcb2d62,61,Male,124/89,180,18.6,No,Yes,Low,Hypertension
+0840799c,26,Male,125/77,218,22.7,Yes,No,High,Heart Disease
+612f6a10,46,Female,93/99,288,20.0,Yes,No,High,Heart Disease
+398e580a,38,Male,147/80,251,32.6,No,No,Low,Hypertension
+9e380964,72,Male,90/62,201,26.3,No,Yes,Low,Hypertension
+36bc50f4,81,Other,149/95,163,40.0,Yes,Yes,Moderate,Healthy
+41ca5a7c,74,Other,130/83,245,26.3,Yes,No,Low,Obesity
+581aa232,68,Male,105/78,162,27.0,Yes,No,High,Diabetes
+e752965c,50,Male,136/75,234,24.2,No,No,Low,Hypertension
+74ba2d18,42,Female,135/87,278,30.8,No,No,Low,Healthy
+d2ea6500,33,Female,153/80,253,19.8,No,No,High,Obesity
+3dc47232,78,Other,99/98,155,39.8,Yes,Yes,Low,Healthy
+9f994e1d,63,Male,153/71,280,23.4,No,No,Moderate,Diabetes
+84d57f94,74,Other,119/98,259,28.5,No,No,Low,Diabetes
+b3ae4521,24,Other,141/85,168,22.0,Yes,No,Moderate,Hypertension
+c4875af7,75,Female,126/91,244,36.2,No,Yes,Low,Heart Disease
+094ddb51,29,Male,115/65,247,23.8,No,Yes,Low,Hypertension
+ddde2353,70,Male,157/94,204,30.9,Yes,Yes,Low,Obesity
+84c048c4,32,Other,135/79,269,36.8,No,Yes,Moderate,Hypertension
+b0eda9f2,62,Female,157/80,213,30.3,Yes,Yes,Moderate,Heart Disease
+99881222,89,Other,151/82,191,37.9,Yes,No,High,Diabetes
+f53e828f,68,Female,131/76,262,33.1,Yes,No,Low,Obesity
+a66d2018,47,Male,111/60,233,27.5,Yes,No,Low,Healthy
+2240d23b,25,Other,108/98,196,25.4,Yes,No,High,Heart Disease
+87c495e5,64,Female,103/85,276,36.4,Yes,No,Low,Heart Disease
+2f53e9ac,75,Other,128/86,254,35.5,No,No,Moderate,Diabetes
+f63324a1,74,Male,117/70,282,32.8,Yes,No,Low,Heart Disease
+17b508e5,21,Female,113/79,260,34.3,No,No,High,Diabetes
+aef51819,79,Female,119/81,200,38.3,No,Yes,Moderate,Heart Disease
+60e2909e,73,Other,121/88,213,36.1,No,Yes,Moderate,Diabetes
+e1d63053,28,Female,132/89,225,36.3,Yes,Yes,Moderate,Diabetes
+84bf3baa,26,Female,148/69,234,28.9,No,Yes,High,Diabetes
+0a4adbe0,76,Other,130/80,228,24.6,Yes,No,Moderate,Obesity
+12d18d03,22,Male,94/85,244,36.1,Yes,Yes,High,Obesity
+9d453cce,35,Other,95/90,215,38.3,No,No,Low,Healthy
+920db0b9,67,Other,133/73,195,36.7,No,Yes,High,Diabetes
+f359028d,83,Male,148/87,169,23.0,Yes,Yes,Moderate,Heart Disease
+a017aaad,21,Other,111/96,212,31.3,Yes,Yes,Moderate,Healthy
+0340341c,65,Male,103/86,171,21.7,No,No,Low,Healthy
+ce284cd2,79,Male,147/87,267,30.4,Yes,No,Low,Obesity
+8b521959,28,Female,95/91,235,26.6,No,No,High,Hypertension
+18004259,28,Other,131/70,299,31.2,Yes,No,High,Healthy
+d40bd57e,84,Other,93/77,272,29.9,Yes,Yes,High,Healthy
+1815817e,42,Female,156/91,218,30.4,Yes,Yes,Low,Heart Disease
+399e4dd6,54,Other,102/79,216,38.5,No,No,Low,Healthy
+bb6cc6a6,24,Other,108/89,269,29.6,No,No,Low,Hypertension
+e236b035,26,Female,128/81,297,39.3,Yes,Yes,Low,Healthy
+34c527b0,24,Female,129/65,183,32.3,Yes,No,High,Heart Disease
+15a6a7bb,63,Other,100/82,294,27.2,Yes,Yes,High,Obesity
+0bec35ae,47,Male,138/85,280,21.3,Yes,Yes,Moderate,Obesity
+cccc7201,35,Other,110/79,195,35.3,No,No,High,Healthy
+7fb58647,46,Other,152/70,282,24.9,No,No,Moderate,Diabetes
+f5e670a4,47,Other,122/92,162,32.8,Yes,Yes,Moderate,Obesity
+3cc2d8ea,32,Female,143/90,203,22.2,Yes,No,High,Diabetes
+2bd67a9c,27,Male,145/98,264,27.4,No,No,Low,Obesity
+01c0a54d,68,Other,96/86,249,20.6,Yes,No,Low,Heart Disease
+f7d41490,53,Female,149/97,284,25.9,No,No,Moderate,Healthy
+74a2b5f7,20,Other,125/64,247,18.7,Yes,Yes,High,Hypertension
+2f9319c7,75,Other,137/97,277,25.9,Yes,Yes,Low,Obesity
+97bc3be0,80,Other,121/64,157,20.6,No,No,Low,Diabetes
+f222ff79,27,Male,103/98,281,35.6,No,No,Low,Healthy
+7d0cfda0,35,Male,140/65,259,26.1,Yes,Yes,Low,Healthy
+ccd7b469,19,Other,129/93,243,20.1,No,No,Moderate,Heart Disease
+88faa38c,74,Other,131/89,194,35.8,No,Yes,High,Diabetes
+f2d13e05,70,Female,126/97,195,28.9,Yes,No,Moderate,Obesity
+b9159d74,46,Other,156/84,300,22.2,Yes,Yes,Low,Diabetes
+67acbe22,76,Male,107/91,159,27.4,No,Yes,Low,Hypertension
+446be1e3,67,Male,146/61,300,21.9,No,Yes,High,Heart Disease
+d7825910,76,Female,142/76,279,28.9,No,Yes,Low,Diabetes
+fc25eaa3,62,Other,145/62,227,29.9,No,Yes,Moderate,Hypertension
+018be06c,90,Male,160/69,239,33.4,No,Yes,High,Healthy
+e687b5e2,66,Other,95/82,210,30.3,Yes,Yes,High,Heart Disease
+13841c95,30,Female,128/84,284,22.9,No,No,Moderate,Heart Disease
+5af18005,90,Other,99/84,290,25.0,Yes,Yes,High,Diabetes
+127710ca,87,Female,138/94,214,18.7,No,Yes,Moderate,Healthy
+d95fe9e0,22,Female,110/74,152,34.2,Yes,Yes,High,Healthy
+6b6a4433,77,Other,122/75,153,38.6,No,No,High,Diabetes
+21a62316,30,Male,124/91,174,18.5,Yes,No,High,Hypertension
+075b635b,75,Female,146/98,163,36.6,Yes,No,High,Hypertension
+0a7a6454,32,Other,109/74,218,19.3,No,No,Low,Heart Disease
+83c48295,84,Female,99/60,275,22.5,No,No,High,Obesity
+ceed9215,66,Other,98/100,258,28.0,No,Yes,Low,Heart Disease
+fba4a25d,71,Other,120/65,197,37.6,No,No,Moderate,Diabetes
+b787b183,47,Female,100/82,197,32.8,Yes,Yes,Low,Healthy
+decb9018,68,Other,103/75,156,33.3,No,Yes,Moderate,Heart Disease
+a55b2c15,38,Female,152/100,275,22.2,Yes,No,High,Healthy
+441794d2,76,Female,106/66,186,39.0,Yes,No,Moderate,Heart Disease
+de5379cc,69,Female,138/90,169,21.8,Yes,Yes,Moderate,Heart Disease
+abc28d0d,67,Other,92/62,251,23.9,Yes,No,High,Heart Disease
+b35cbb54,21,Male,131/67,166,37.4,Yes,No,Moderate,Diabetes
+e4b5d192,41,Other,114/88,179,19.6,Yes,No,Low,Heart Disease
+f06fe37f,27,Other,99/99,223,33.3,No,Yes,Low,Hypertension
+49ba71a6,66,Other,144/66,204,33.6,No,Yes,Low,Hypertension
+acae022e,27,Male,148/64,254,37.1,Yes,No,Moderate,Heart Disease
+6f4fa0e4,29,Other,93/83,258,20.4,Yes,Yes,Moderate,Hypertension
+24d38d07,70,Male,113/75,294,25.2,No,Yes,High,Obesity
+6f1f5abd,29,Male,100/83,189,33.4,No,Yes,High,Diabetes
+d50d1f90,81,Other,127/75,203,34.1,Yes,Yes,High,Diabetes
+fca0c027,70,Male,120/77,236,21.0,No,Yes,Moderate,Healthy
+bbd8b3c6,70,Male,133/69,243,21.8,Yes,Yes,Low,Diabetes
+9504097d,70,Female,135/82,260,28.5,No,Yes,Low,Hypertension
+099eb30e,54,Male,94/91,290,34.8,Yes,Yes,Moderate,Hypertension
+45bcf006,58,Male,96/87,233,33.3,Yes,Yes,Low,Hypertension
+9147195b,83,Male,149/69,194,19.4,No,Yes,High,Hypertension
+35c29e2f,87,Female,151/66,252,32.0,No,No,Moderate,Healthy
+0fda6192,57,Other,107/99,178,35.7,Yes,No,Low,Diabetes
+e34c3483,68,Female,109/68,270,25.5,No,No,Moderate,Hypertension
+47c7637f,52,Other,132/98,285,34.7,Yes,No,High,Heart Disease
+bd5710e1,27,Male,105/86,187,26.7,Yes,No,Moderate,Hypertension
+7be4b03a,25,Female,155/92,250,19.6,No,No,Low,Diabetes
+9079c887,87,Male,135/70,153,18.7,No,No,Moderate,Diabetes
+1ccef330,51,Other,120/76,182,21.1,Yes,No,High,Obesity
+c9f07e9e,75,Male,157/69,151,31.1,Yes,No,Moderate,Diabetes
+5f1ccc42,20,Female,97/90,276,35.1,Yes,Yes,Moderate,Healthy
+9a4d574d,53,Other,157/73,169,27.4,No,Yes,High,Diabetes
+1be44f6e,53,Female,152/64,164,27.4,Yes,Yes,Moderate,Heart Disease
+efa64207,89,Male,127/67,212,20.6,Yes,Yes,High,Obesity
+7733cb04,18,Female,135/82,280,33.9,No,Yes,Moderate,Hypertension
+e910c4e7,53,Male,111/70,175,21.4,Yes,Yes,Low,Hypertension
+8e31a2c1,64,Other,132/77,297,36.7,No,No,Moderate,Heart Disease
+2d0bc904,26,Male,108/60,184,26.6,No,Yes,Low,Heart Disease
+61829564,30,Female,103/96,150,39.2,Yes,No,High,Obesity
+cdaa8ea8,82,Female,127/71,276,36.6,No,No,High,Hypertension
+3959505b,73,Male,100/91,300,18.2,No,Yes,High,Diabetes
+329e1252,42,Male,95/80,280,23.2,No,No,Moderate,Heart Disease
+5526884e,88,Female,146/79,284,35.0,Yes,Yes,Low,Heart Disease
+e985fa51,64,Female,134/86,195,19.4,Yes,No,Moderate,Healthy
+dd2b368e,83,Female,149/81,283,18.4,Yes,No,Moderate,Diabetes
+00e5c3f5,83,Other,92/98,299,19.4,No,Yes,High,Obesity
+8841fbfe,48,Other,103/64,254,21.0,No,Yes,Low,Obesity
+99989970,74,Other,119/88,213,31.5,No,No,Low,Hypertension
+d31c523b,54,Male,121/63,296,29.4,No,Yes,High,Hypertension
+a1538ef3,49,Female,102/65,218,29.3,No,No,Low,Heart Disease
+66da718e,76,Other,122/92,235,38.1,No,Yes,Low,Healthy
+1c685d19,83,Female,136/63,196,35.2,Yes,No,Moderate,Heart Disease
+d0283e85,84,Other,103/72,159,37.3,Yes,No,Low,Hypertension
+7e7855a6,76,Female,150/84,225,23.1,No,Yes,High,Obesity
+ed2e66a1,30,Other,117/86,233,39.4,Yes,Yes,High,Hypertension
+b93b4d14,83,Other,159/77,173,19.4,Yes,Yes,High,Obesity
+67374603,90,Male,151/100,173,18.8,Yes,Yes,Moderate,Heart Disease
+8539ad0a,64,Male,157/91,157,24.8,No,Yes,Moderate,Obesity
+8e06aa20,51,Male,94/90,216,32.1,Yes,Yes,High,Healthy
+1f9d7a3f,42,Other,91/76,283,21.9,No,Yes,Moderate,Diabetes
+95befc44,33,Female,123/84,203,38.2,No,Yes,Moderate,Diabetes
+f9289055,71,Female,120/98,242,37.7,No,Yes,High,Diabetes
+2bec0424,61,Female,142/73,163,24.2,Yes,Yes,Low,Obesity
+34479207,88,Other,151/63,193,30.8,No,Yes,Moderate,Hypertension
+1567efb3,23,Other,158/97,246,26.7,No,No,Low,Hypertension
+fa67298a,45,Female,96/60,267,27.3,No,No,High,Diabetes
+4a77c065,78,Other,138/80,247,30.6,No,No,Moderate,Obesity
+a0a99033,79,Female,144/84,184,37.6,Yes,No,High,Obesity
+bdd475fc,65,Female,160/68,164,21.2,No,No,High,Obesity
+f3c9cfb9,66,Other,124/61,285,22.9,No,No,Moderate,Diabetes
+f310ac46,57,Male,111/100,265,26.6,Yes,No,Low,Hypertension
+f90624f4,26,Male,95/82,150,32.9,No,Yes,Low,Diabetes
+fad8d465,19,Other,154/98,204,29.0,No,No,Moderate,Hypertension
+547c93e7,43,Female,98/92,272,19.5,No,No,Moderate,Hypertension
+daa722fc,37,Female,142/85,215,29.4,Yes,Yes,Moderate,Hypertension
+fa4035ed,70,Other,101/72,259,30.4,No,Yes,High,Obesity
+91cdcdbc,20,Female,136/94,203,34.5,Yes,Yes,Moderate,Obesity
+11bdde78,29,Male,136/64,252,37.3,Yes,Yes,Low,Healthy
+65cb6d1c,23,Other,159/68,176,29.8,Yes,Yes,High,Healthy
+071f9833,26,Other,117/65,197,19.8,No,No,Moderate,Obesity
+8e6d156c,48,Female,127/78,290,34.2,No,Yes,Low,Diabetes
+f5151d14,23,Male,131/84,166,31.6,Yes,Yes,Moderate,Obesity
+d6a5d6e7,86,Other,114/76,165,29.6,Yes,No,Moderate,Hypertension
+e3e850cb,51,Female,90/69,172,29.2,Yes,Yes,Low,Healthy
+47da0341,53,Male,141/88,188,36.0,Yes,No,Low,Healthy
+c400ebc0,54,Male,97/86,158,35.9,No,No,High,Diabetes
+9535fe16,66,Other,98/95,278,20.8,No,Yes,Low,Hypertension
+88bcebb6,21,Male,128/80,285,24.1,No,Yes,Low,Heart Disease
+f0978391,28,Male,103/63,203,20.3,No,No,Low,Obesity
+6cfa1311,67,Female,98/84,277,21.3,No,No,Low,Hypertension
+70b096ba,23,Other,101/100,207,38.0,No,Yes,Low,Heart Disease
+5df3db11,20,Other,132/68,194,19.8,No,Yes,Moderate,Heart Disease
+075624d1,40,Male,92/68,297,19.7,Yes,No,Moderate,Diabetes
+fecddecd,52,Other,96/81,273,27.1,No,Yes,Moderate,Obesity
+0543f08f,19,Female,143/69,159,21.6,Yes,Yes,High,Heart Disease
+800a7ced,82,Other,147/93,186,39.7,Yes,No,Low,Healthy
+84a60725,26,Other,146/66,279,34.8,Yes,Yes,Low,Hypertension
+07226a6b,55,Male,114/94,215,25.4,No,No,Moderate,Diabetes
+68cacf9a,23,Male,122/90,269,34.7,Yes,No,Moderate,Diabetes
+1d961974,88,Other,141/62,285,35.4,Yes,Yes,Low,Healthy
+0543e712,83,Male,143/94,300,19.7,Yes,Yes,High,Diabetes
+0014e85d,29,Other,109/84,173,36.0,Yes,No,Moderate,Healthy
+893c8879,32,Female,137/70,189,25.5,No,Yes,Moderate,Obesity
+ed0bce5d,75,Other,141/61,300,34.3,No,Yes,High,Obesity
+35123317,70,Female,159/62,181,28.4,Yes,No,High,Obesity
+38de376b,72,Female,117/83,265,26.4,No,No,Moderate,Obesity
+b9bb1ff8,55,Male,103/77,195,34.9,No,Yes,Moderate,Heart Disease
+2ee2a53f,81,Other,92/99,186,19.3,Yes,Yes,Low,Diabetes
+f213b3e7,25,Other,96/84,273,34.1,Yes,No,Low,Heart Disease
+df2ecb3c,18,Female,147/85,245,25.6,Yes,No,High,Heart Disease
+977509c6,30,Other,135/71,193,34.0,No,No,Low,Healthy
+f651f005,40,Other,138/72,198,35.1,No,No,Low,Hypertension
+ae9d61f4,89,Male,129/74,195,29.9,Yes,Yes,Moderate,Obesity
+e7cb6064,44,Other,92/89,210,20.1,No,Yes,Moderate,Healthy
+ec94aae5,36,Other,138/71,166,26.6,Yes,Yes,High,Heart Disease
+62bec3de,67,Male,159/100,275,20.9,Yes,Yes,High,Obesity
+19eab533,81,Female,94/65,234,33.0,Yes,Yes,Low,Diabetes
+ca75f897,89,Other,141/92,262,20.3,No,Yes,High,Obesity
+d29bf1d5,32,Male,99/64,265,24.2,No,No,Moderate,Hypertension
+76fcec3e,41,Male,134/66,250,19.8,No,No,Moderate,Healthy
+5a95b341,72,Male,107/69,238,34.0,No,No,Moderate,Diabetes
+4f426ab3,23,Male,116/99,171,35.9,Yes,Yes,Low,Heart Disease
+da224035,28,Other,92/69,270,20.3,Yes,Yes,Low,Healthy
+54875346,54,Male,159/61,153,38.7,No,Yes,Low,Hypertension
+3b1a2e7d,44,Male,149/64,250,29.1,Yes,Yes,Moderate,Heart Disease
+bdb27f35,41,Other,150/74,293,37.9,Yes,No,Moderate,Hypertension
+1bd740ce,53,Male,91/65,296,29.6,Yes,No,High,Heart Disease
+18dfcd42,35,Other,124/81,215,35.7,No,No,High,Hypertension
+3a0f310a,68,Female,122/65,164,19.9,Yes,No,Moderate,Healthy
+240bdc1a,88,Female,155/91,161,20.8,Yes,Yes,Low,Hypertension
+afd4e76d,49,Female,106/74,235,30.9,Yes,No,Low,Diabetes
+dd2be882,66,Female,117/85,187,33.8,No,Yes,High,Heart Disease
+98d9dc1f,72,Other,107/89,288,29.7,No,No,Low,Obesity
+89ed9a45,74,Female,140/99,187,27.2,No,Yes,Low,Heart Disease
+9ba008c3,49,Male,111/81,206,37.7,No,No,High,Diabetes
+8039df96,56,Male,140/65,210,18.2,No,No,Moderate,Heart Disease
+cbbb3151,66,Female,110/91,277,20.0,Yes,Yes,Moderate,Healthy
+dbb83b14,27,Male,110/98,276,19.4,Yes,No,High,Heart Disease
+0398966f,58,Male,126/63,212,29.6,Yes,Yes,Moderate,Healthy
+eed384cb,38,Female,108/63,252,19.2,No,Yes,Moderate,Diabetes
+e59346e3,51,Other,129/89,169,23.6,No,Yes,Moderate,Heart Disease
+52693aaf,47,Female,141/76,246,39.6,No,No,High,Diabetes
+21d693b4,46,Male,100/89,262,28.6,Yes,No,High,Healthy
+949a686c,62,Female,116/89,227,23.1,No,Yes,High,Heart Disease
+9c02017b,35,Male,129/72,246,21.2,No,Yes,Moderate,Heart Disease
+d2fa51a1,68,Other,102/90,165,25.5,No,Yes,High,Healthy
+306ac45f,86,Male,119/96,285,36.7,No,No,Moderate,Hypertension
+497bae67,72,Other,110/87,202,20.4,Yes,Yes,Low,Hypertension
+d0b910d2,79,Female,146/72,268,39.1,No,No,Moderate,Obesity
+ecf8b8af,34,Other,160/82,276,24.6,Yes,Yes,Low,Diabetes
+b68f36f2,60,Other,159/90,213,36.1,No,No,High,Diabetes
+9f30feca,75,Other,160/93,180,34.8,Yes,No,Low,Heart Disease
+d7381d77,23,Other,142/82,262,38.9,No,No,Moderate,Hypertension
+d6bd1e9e,88,Male,154/89,224,36.2,No,No,Low,Hypertension
+af3e2346,78,Female,127/94,169,18.1,No,No,High,Hypertension
+dd54816e,57,Other,116/98,266,34.6,Yes,Yes,Low,Hypertension
+e48e6104,78,Other,114/98,177,24.6,Yes,Yes,Low,Healthy
+4c837795,34,Male,149/80,244,19.7,Yes,No,High,Obesity
+411d9c80,73,Female,124/88,159,36.4,No,No,High,Heart Disease
+d2bc3afa,26,Male,126/93,294,31.6,Yes,No,Moderate,Hypertension
+5126a88c,41,Male,125/87,156,30.3,No,No,Moderate,Heart Disease
+3d3cd5b0,61,Female,90/68,279,22.0,Yes,Yes,Moderate,Hypertension
+c987d6cb,52,Other,135/89,283,22.2,Yes,Yes,Moderate,Heart Disease
+9c882725,53,Male,144/69,242,39.0,No,Yes,Low,Obesity
+28731f62,22,Female,147/100,256,32.7,Yes,Yes,High,Diabetes
+6d838657,79,Other,125/100,196,20.6,No,No,Moderate,Healthy
+3de0894e,45,Other,97/100,199,38.2,Yes,No,Low,Diabetes
+14e58410,76,Female,133/85,173,39.6,Yes,No,Low,Hypertension
+2a740006,64,Male,156/67,216,37.5,No,Yes,High,Diabetes
+2e423c42,48,Other,141/85,174,22.4,Yes,Yes,High,Obesity
+e09a3818,51,Female,147/61,289,19.4,Yes,Yes,High,Healthy
+992f2b5a,24,Female,159/68,275,39.9,No,Yes,Low,Diabetes
+62b7982e,79,Other,114/73,156,32.6,No,No,High,Heart Disease
+e789737a,42,Other,103/65,190,35.7,No,Yes,Moderate,Heart Disease
+2ede372e,61,Female,108/62,185,29.5,Yes,No,Moderate,Hypertension
+844db8ee,35,Other,126/68,190,23.4,Yes,Yes,Low,Healthy
+b738146c,53,Other,115/80,177,32.1,Yes,No,Low,Heart Disease
+0f5674a8,47,Male,111/93,205,35.5,No,Yes,High,Heart Disease
+2613f10d,89,Female,129/98,180,22.7,Yes,Yes,Low,Hypertension
+3ee366d4,43,Other,137/67,216,25.2,Yes,No,High,Healthy
+75d4c6c2,88,Male,148/81,163,27.3,Yes,Yes,Low,Healthy
+825091d2,26,Male,102/96,270,34.2,Yes,No,Moderate,Healthy
+5e4d80b6,73,Male,135/90,264,29.2,Yes,No,Low,Heart Disease
+65468f1a,90,Other,134/69,176,25.7,Yes,Yes,Low,Diabetes
+3a82a4f4,20,Other,124/67,233,28.1,Yes,No,Low,Obesity
+4a611cce,84,Male,128/68,244,37.1,No,Yes,Low,Heart Disease
+e004f739,30,Female,151/100,239,18.8,Yes,Yes,High,Healthy
+c4562e45,87,Other,157/62,299,30.6,No,Yes,High,Heart Disease
+b5a5cf7a,60,Male,96/89,150,33.5,Yes,No,Low,Diabetes
+e8449b14,26,Female,121/83,161,39.9,No,Yes,Low,Healthy
+30f1bc56,50,Male,142/61,254,32.5,No,Yes,High,Hypertension
+87c12021,28,Female,141/66,221,36.9,Yes,Yes,High,Obesity
+19f8c84a,54,Female,90/92,211,30.7,No,Yes,Moderate,Obesity
+7872b849,62,Female,103/86,288,38.3,Yes,Yes,Low,Hypertension
+fbbebe8b,43,Male,123/64,242,22.6,No,Yes,High,Heart Disease
+9eca9613,56,Male,125/70,265,21.9,No,Yes,High,Obesity
+a9986cfe,67,Other,128/93,231,38.6,Yes,No,High,Hypertension
+f648e006,58,Other,159/65,194,35.4,No,No,High,Heart Disease
+b80e7025,49,Male,146/75,193,24.8,Yes,Yes,Moderate,Obesity
+a5862959,42,Other,115/77,193,23.6,No,No,Moderate,Obesity
+1fac0ae0,32,Female,142/80,244,24.1,No,No,High,Diabetes
+50770e10,87,Female,108/96,272,26.9,Yes,No,Moderate,Diabetes
+934e8010,73,Female,99/88,282,19.0,No,Yes,Moderate,Diabetes
+fc9cb3f4,76,Other,151/90,224,39.0,Yes,No,Low,Healthy
+b98e9bb1,42,Other,133/93,193,31.1,Yes,Yes,Low,Obesity
+acec3a86,51,Male,108/87,253,30.6,Yes,Yes,Moderate,Obesity
+0b1406a9,49,Male,98/99,163,19.7,No,No,Low,Diabetes
+61b49254,36,Other,134/89,166,25.4,No,Yes,High,Heart Disease
+e1c6a627,57,Other,154/95,252,25.6,Yes,Yes,Low,Heart Disease
+2e686739,24,Other,132/65,295,36.5,No,No,Low,Obesity
+3bf4c0f8,65,Male,154/91,240,25.9,Yes,No,Low,Healthy
+ce15554b,44,Male,91/94,237,38.6,No,Yes,High,Hypertension
+685788e9,90,Male,120/74,295,36.5,No,Yes,Low,Diabetes
+af850b88,60,Female,98/84,276,34.0,No,No,Moderate,Healthy
+e24db13d,43,Other,107/75,239,24.8,Yes,No,Moderate,Healthy
+c1593a12,64,Male,121/79,220,36.6,Yes,Yes,High,Hypertension
+b1e2c764,71,Male,104/71,201,37.5,Yes,Yes,Moderate,Diabetes
+14ac06ba,25,Other,91/66,269,26.1,Yes,No,Low,Diabetes
+bff5bc11,83,Male,142/88,242,23.3,Yes,Yes,Low,Heart Disease
+0e050294,18,Female,106/76,204,22.3,Yes,Yes,High,Diabetes
+8a158b9d,49,Female,155/79,269,24.2,Yes,Yes,Moderate,Obesity
+c9ba66a4,71,Male,146/85,160,35.2,No,Yes,Moderate,Healthy
+242df860,60,Other,94/81,178,31.5,Yes,No,Moderate,Obesity
+5088adfe,56,Other,122/97,165,22.5,No,Yes,Moderate,Diabetes
+d89b096d,79,Female,154/68,221,24.1,No,No,Low,Obesity
+7ab0ef4d,58,Male,118/74,191,18.4,Yes,Yes,Low,Obesity
+e542130d,56,Female,91/64,164,34.9,No,Yes,Moderate,Heart Disease
+5f521774,50,Male,146/74,294,30.1,Yes,No,Low,Heart Disease
+79d3f575,19,Female,145/76,192,25.6,No,Yes,Moderate,Heart Disease
+24431a53,19,Other,129/73,173,21.9,No,Yes,High,Healthy
+ce2f4276,28,Male,105/98,278,34.5,No,No,Moderate,Diabetes
+fd2e9317,38,Male,127/96,210,20.9,No,No,Low,Healthy
+0afae1e1,74,Other,125/61,180,21.5,No,No,Moderate,Hypertension
+ae8008ff,35,Male,159/60,202,30.7,No,No,Moderate,Diabetes
+523eabdf,19,Female,155/94,278,20.5,No,Yes,Moderate,Healthy
+e85f898e,86,Other,96/80,221,22.5,Yes,No,Moderate,Heart Disease
+fb978bbb,65,Male,137/100,179,26.2,No,No,High,Obesity
+de5759d9,49,Female,122/61,227,31.1,No,Yes,High,Diabetes
+8d32df69,21,Male,132/62,169,20.6,Yes,No,High,Healthy
+dc3c14c6,34,Other,131/90,236,35.5,Yes,No,Moderate,Diabetes
+dd4a622f,41,Male,90/66,219,27.2,Yes,No,High,Healthy
+b4614d06,24,Other,158/84,181,24.7,Yes,No,Moderate,Heart Disease
+29ef0b4c,40,Female,94/84,289,30.1,Yes,No,Low,Heart Disease
+f8cde272,28,Female,99/66,177,31.7,No,No,High,Hypertension
+e0d1adac,56,Female,131/70,184,23.5,No,No,High,Hypertension
+57f2c913,26,Other,130/69,265,22.8,Yes,No,Low,Heart Disease
+92a6d3e5,81,Male,96/88,179,22.6,No,Yes,Moderate,Heart Disease
+afcb3bf2,79,Male,151/100,276,22.2,Yes,No,Moderate,Hypertension
+c43cd156,86,Male,140/64,214,32.8,No,No,Moderate,Obesity
+354ad0c6,25,Other,92/61,170,23.4,No,No,Moderate,Obesity
+7e9c3d66,69,Other,104/68,152,27.6,Yes,Yes,Low,Hypertension
+b767c381,59,Male,127/80,167,20.8,No,Yes,Low,Obesity
+5311cd63,30,Male,119/93,280,34.0,No,No,Moderate,Hypertension
+edc89da2,60,Male,145/92,269,37.2,Yes,Yes,High,Obesity
+b462a389,38,Other,108/61,227,19.0,Yes,Yes,Low,Healthy
+7d5a7192,90,Female,96/60,197,37.2,Yes,Yes,Low,Obesity
+deb9c48b,71,Female,96/89,266,22.4,Yes,Yes,Moderate,Hypertension
+340306fb,33,Female,158/62,219,39.0,Yes,Yes,High,Obesity
+c1f2bd91,54,Other,128/89,286,27.8,Yes,Yes,High,Healthy
+f4ae817f,61,Other,103/87,196,25.7,Yes,No,Moderate,Diabetes
+1b692d32,74,Other,152/76,201,36.8,Yes,Yes,High,Heart Disease
+1eaa0a00,57,Male,140/61,280,20.2,No,No,High,Healthy
+017392be,40,Male,142/100,175,28.4,Yes,No,Moderate,Heart Disease
+fbb32ebf,41,Other,141/89,163,31.8,No,No,High,Diabetes
+921b0d20,71,Female,133/80,217,33.2,No,Yes,Moderate,Healthy
+ba0c25ae,36,Female,156/62,239,36.5,Yes,No,High,Hypertension
+902bbbbf,65,Male,110/70,219,37.3,Yes,No,High,Hypertension
+5b376a53,20,Male,100/82,241,23.5,Yes,Yes,Moderate,Heart Disease
+cd2d29e8,20,Other,116/96,273,36.5,No,No,Moderate,Hypertension
+539ce1d4,73,Other,127/90,287,31.8,Yes,Yes,Moderate,Hypertension
+f070aea2,66,Female,115/74,276,35.1,No,Yes,Moderate,Obesity
+81eb6847,43,Male,140/93,179,26.1,Yes,No,Low,Hypertension
+b8b19356,40,Other,137/82,245,33.7,No,No,Low,Healthy
+74c36ddb,50,Other,125/79,256,37.1,No,Yes,Low,Diabetes
+7236028f,72,Other,108/65,272,18.9,No,No,Moderate,Hypertension
+206ff78a,69,Other,142/75,218,20.9,No,No,Moderate,Heart Disease
+852d0e34,20,Female,119/79,155,29.2,Yes,No,Low,Diabetes
+90173f84,86,Male,141/66,253,33.6,Yes,No,High,Heart Disease
+bc069524,64,Male,140/99,265,30.4,Yes,No,Low,Healthy
+2ee4af14,43,Male,130/66,275,20.4,Yes,Yes,Low,Heart Disease
+fa76e990,51,Female,159/97,168,28.7,No,Yes,Low,Obesity
+12d28dd5,40,Other,93/87,290,38.0,Yes,Yes,Moderate,Diabetes
+c605bbb0,51,Female,157/94,254,31.7,Yes,No,Moderate,Hypertension
+2e460fc5,30,Female,143/80,175,31.7,No,Yes,Moderate,Healthy
+48e7a478,18,Female,142/83,247,27.6,No,Yes,Low,Heart Disease
+6a61c8b1,28,Female,149/60,208,34.2,No,No,Moderate,Diabetes
+6b8d21cf,90,Other,94/88,210,36.5,Yes,Yes,Low,Healthy
+8ba51aff,63,Male,137/96,233,39.2,Yes,No,Moderate,Obesity
+3bd66d2f,87,Female,95/92,192,30.8,No,No,Moderate,Heart Disease
+47de1000,36,Male,95/78,219,31.8,No,No,Moderate,Obesity
+d47e85ef,59,Male,128/65,230,33.8,Yes,No,Moderate,Diabetes
+8f0c847b,34,Male,107/97,267,36.9,No,No,Low,Diabetes
+7e30dc71,79,Female,134/82,209,19.0,Yes,Yes,Low,Diabetes
+6b5f5cf2,90,Male,119/61,241,19.8,Yes,Yes,High,Hypertension
+4b012a0c,64,Other,109/69,159,39.1,No,Yes,High,Healthy
+4685ff7b,40,Other,115/80,255,37.8,No,No,Moderate,Diabetes
+2d76156b,90,Other,110/71,192,32.9,Yes,Yes,High,Hypertension
+ca6409d8,28,Female,114/80,160,20.9,Yes,No,Moderate,Hypertension
+37a0db70,66,Male,127/61,151,27.6,Yes,Yes,Moderate,Diabetes
+4ba01786,62,Other,148/86,169,37.2,No,No,Moderate,Hypertension
+52a97633,45,Female,130/66,294,30.4,Yes,Yes,Moderate,Healthy
+9c865057,75,Male,143/78,190,33.1,Yes,No,Moderate,Healthy
+50444c9d,70,Female,151/85,297,38.3,Yes,Yes,Moderate,Healthy
+e6ac9a55,46,Female,131/63,266,38.6,Yes,Yes,High,Obesity
+4560a59a,28,Female,145/88,297,20.6,Yes,No,Low,Hypertension
+700b27c0,35,Male,137/75,234,33.5,No,No,High,Healthy
+ce81f298,64,Female,159/78,227,38.4,No,No,Moderate,Healthy
+1ed56790,86,Male,156/89,191,27.2,Yes,No,Moderate,Hypertension
+246dfb25,59,Male,95/77,287,35.1,Yes,No,High,Heart Disease
+6adf849e,69,Male,104/99,291,37.6,No,Yes,Low,Hypertension
+f9a71229,29,Male,94/67,275,35.9,Yes,No,High,Heart Disease
+cc67f94d,23,Other,114/86,207,33.0,No,Yes,Low,Healthy
+51b21e59,65,Female,116/84,232,19.9,No,Yes,Low,Diabetes
+ea3e6635,90,Other,103/90,165,29.5,Yes,Yes,High,Diabetes
+0c519b99,31,Other,149/73,242,21.5,Yes,No,High,Healthy
+30bb3388,34,Male,96/86,228,27.9,No,Yes,Moderate,Diabetes
+e409f95c,70,Male,97/67,274,39.1,Yes,No,Low,Hypertension
+5a809b4d,18,Male,157/99,167,30.5,No,No,Moderate,Healthy
+98722711,48,Female,151/98,194,30.8,No,Yes,Low,Diabetes
+2dad04a5,83,Other,144/80,269,29.6,No,No,Moderate,Healthy
+588b41b8,48,Male,93/65,191,29.7,Yes,No,Moderate,Hypertension
+2767eca0,56,Female,144/65,266,27.7,No,Yes,Moderate,Obesity
+c30b4f7c,20,Other,133/96,237,28.4,No,Yes,Moderate,Diabetes
+9331eab0,51,Female,105/74,252,18.6,No,Yes,Moderate,Obesity
+3ab6e707,20,Other,102/72,252,33.4,No,Yes,Low,Diabetes
+3d784ddc,56,Female,116/68,183,37.4,Yes,Yes,High,Hypertension
+e99f6b37,67,Male,95/64,219,29.3,No,No,High,Hypertension
+1df494b2,74,Male,115/69,166,30.2,Yes,No,Low,Diabetes
+845ece93,32,Female,139/65,245,38.6,Yes,No,Moderate,Diabetes
+cfd251e5,61,Male,160/95,256,38.6,No,Yes,High,Diabetes
+6a4bb3ef,28,Male,104/80,287,34.7,Yes,Yes,Moderate,Diabetes
+57352823,67,Other,159/69,198,19.3,Yes,No,High,Obesity
+dd946c2f,90,Male,141/68,227,27.4,Yes,Yes,Moderate,Heart Disease
+8c103af0,33,Other,146/96,152,22.8,No,No,Moderate,Obesity
+c656ada1,56,Male,159/80,264,34.5,Yes,No,Low,Diabetes
+466a90ac,18,Other,96/85,163,21.5,Yes,Yes,High,Obesity
+850664e3,84,Female,151/62,221,28.9,No,No,High,Heart Disease
+e3e86507,41,Female,94/91,209,39.0,No,No,Low,Healthy
+ced0ae00,41,Male,128/88,287,19.0,No,No,High,Hypertension
+394380fd,63,Male,97/94,241,33.7,No,No,Moderate,Obesity
+0dcc64d9,46,Female,152/63,223,28.0,No,No,Moderate,Healthy
+60545b40,60,Female,93/73,220,30.7,Yes,Yes,High,Hypertension
+0b11eea2,72,Male,105/90,160,19.7,No,No,Low,Obesity
+366444cc,89,Other,149/76,170,27.4,Yes,No,Low,Heart Disease
+72ad76e4,44,Female,97/68,299,33.1,Yes,Yes,Low,Hypertension
+82b37925,45,Female,128/86,252,30.9,Yes,No,High,Healthy
+90c29e33,42,Other,99/92,240,23.6,No,No,Low,Healthy
+c6350b83,46,Male,135/77,259,38.3,No,No,Moderate,Heart Disease
+b5ccbb71,90,Other,143/73,209,30.7,Yes,Yes,Moderate,Obesity
+f1c6aa67,64,Female,91/92,166,27.8,Yes,Yes,High,Obesity
+63f6f353,67,Male,136/76,225,37.8,No,Yes,Moderate,Diabetes
+113afa2c,72,Other,129/96,216,39.5,No,No,Low,Hypertension
+8ce5d4e5,29,Other,111/79,290,18.7,No,Yes,High,Heart Disease
+6655644f,33,Female,152/71,248,22.4,No,No,Moderate,Healthy
+46773f9c,83,Other,133/78,182,29.2,Yes,No,High,Heart Disease
+787b3ed3,72,Female,136/73,251,36.9,No,Yes,Moderate,Healthy
+fdce0938,35,Male,110/86,218,25.2,No,No,High,Hypertension
+cbbd7926,77,Female,98/95,206,19.1,No,No,Moderate,Heart Disease
+15cb31f1,26,Other,107/71,154,29.6,No,No,Low,Obesity
+4097bf6e,33,Female,115/69,264,19.1,Yes,No,Low,Hypertension
+da904ba4,56,Other,91/99,231,38.9,Yes,No,Moderate,Heart Disease
+e7f58a5c,82,Male,99/93,259,36.8,Yes,No,Moderate,Obesity
+d9232797,53,Male,108/81,232,22.3,No,No,High,Healthy
+66863d0a,27,Female,131/93,242,20.8,Yes,No,Low,Heart Disease
+a86adcff,74,Male,104/67,264,24.4,No,No,High,Hypertension
+ac05a30e,73,Male,93/77,205,27.3,Yes,No,Moderate,Diabetes
+b58587ae,87,Male,141/74,291,35.7,No,No,High,Healthy
+af228b58,23,Male,147/68,240,35.7,No,No,Low,Heart Disease
+19c2acf7,50,Other,92/71,277,28.1,Yes,Yes,High,Obesity
+02092cb6,39,Other,126/85,246,19.9,No,Yes,High,Heart Disease
+a7cd5c30,20,Other,109/85,163,39.7,No,Yes,Moderate,Diabetes
+0aaa7f9b,62,Male,121/60,292,32.8,No,Yes,High,Heart Disease
+721d716f,32,Female,138/62,261,31.7,Yes,Yes,Low,Diabetes
+f9bf28b5,70,Female,160/64,161,38.8,No,No,High,Heart Disease
+079f809c,90,Other,130/93,162,33.9,Yes,Yes,Low,Diabetes
+c6ee3aad,47,Other,115/68,260,23.0,No,Yes,High,Hypertension
+18e7488a,21,Other,108/82,285,27.7,No,No,High,Healthy
+a1e57403,41,Male,129/79,289,34.4,No,Yes,Moderate,Healthy
+55e49f7d,49,Other,143/83,194,37.8,Yes,Yes,Moderate,Hypertension
+1b855e36,79,Male,159/60,205,36.8,Yes,Yes,High,Obesity
+02a7c8ba,50,Female,103/86,163,27.1,No,No,Moderate,Hypertension
+b6d0389e,24,Other,106/93,219,20.4,Yes,Yes,Moderate,Hypertension
+0e9e7451,31,Female,97/75,157,31.1,No,Yes,High,Hypertension
+48c04d04,87,Male,100/75,236,19.3,No,No,High,Heart Disease
+8676aba1,25,Other,135/80,203,21.6,No,Yes,Moderate,Hypertension
+020b90b7,56,Female,112/97,216,23.9,Yes,Yes,High,Diabetes
+be9ce1e8,48,Male,153/90,253,32.8,Yes,Yes,High,Hypertension
+11fde536,20,Male,117/99,172,23.0,Yes,No,Moderate,Healthy
+02806fd6,77,Male,117/97,233,33.6,No,Yes,Moderate,Healthy
+eb4979bd,69,Other,118/79,234,28.7,Yes,Yes,Low,Diabetes
+8b3eb335,34,Female,112/73,208,32.2,Yes,Yes,Moderate,Heart Disease
+6a9906e7,27,Female,149/84,210,28.9,No,Yes,High,Hypertension
+f2d52072,41,Female,113/77,248,34.5,Yes,No,Low,Healthy
+18dd63fc,40,Other,90/75,218,34.6,No,Yes,Moderate,Diabetes
+4a2783f9,52,Male,103/84,158,33.2,Yes,No,High,Hypertension
+5b677974,40,Other,132/70,256,30.5,Yes,No,Moderate,Hypertension
+29f883d2,66,Female,155/91,202,30.1,Yes,No,Low,Hypertension
+2fae7644,41,Male,134/72,245,24.4,No,Yes,Low,Obesity
+311a09fc,28,Other,122/85,190,22.5,Yes,Yes,High,Obesity
+d224839c,82,Male,145/62,207,19.8,No,No,High,Obesity
+dfb51ca5,53,Female,120/82,155,35.9,No,Yes,High,Healthy
+a96c9c7c,32,Male,115/84,185,19.5,No,No,Low,Heart Disease
+8a38af96,69,Other,138/60,189,25.9,Yes,No,Moderate,Healthy
+398189b3,44,Other,106/62,293,25.4,No,Yes,High,Obesity
+19d2d930,31,Other,112/71,236,24.9,No,No,Moderate,Hypertension
+28aa7e58,30,Male,120/83,183,39.0,Yes,Yes,High,Healthy
+3cf80588,53,Female,130/71,182,32.8,Yes,No,High,Diabetes
+bc02f7c2,60,Other,107/89,195,22.5,Yes,Yes,High,Hypertension
+6fb7612e,90,Female,108/66,297,21.5,No,Yes,Moderate,Obesity
+3cecc09f,73,Other,120/78,277,39.8,Yes,No,Low,Obesity
+cecbb391,19,Male,139/86,227,26.5,Yes,Yes,Moderate,Heart Disease
+614dc4e0,89,Other,155/99,268,39.9,Yes,Yes,Low,Diabetes
+cdff8218,55,Female,136/81,298,35.1,No,Yes,Low,Hypertension
+1ac058f6,79,Other,112/68,254,29.7,No,Yes,High,Diabetes
+81c019a9,72,Male,152/72,279,36.6,No,No,Moderate,Diabetes
+fa13c4a4,31,Male,158/60,299,24.0,No,No,Moderate,Hypertension
+2244b339,70,Other,149/89,296,22.4,No,Yes,Moderate,Obesity
+a2786689,19,Female,136/73,177,36.6,Yes,Yes,Moderate,Hypertension
+9bcd512b,81,Female,145/87,188,18.2,No,No,Low,Obesity
+7160e32b,78,Female,109/78,273,26.3,Yes,Yes,Low,Obesity
+d7686fc1,74,Male,101/60,249,33.6,No,No,Low,Diabetes
+140a30dc,23,Female,159/95,185,31.6,Yes,Yes,Moderate,Hypertension
+734661c1,54,Other,104/68,166,18.9,Yes,No,Low,Healthy
+2131999b,70,Female,153/88,281,18.3,Yes,No,Low,Obesity
+a6d64551,66,Male,91/96,248,39.4,Yes,Yes,Moderate,Healthy
+5ab57b86,52,Female,124/97,263,36.2,Yes,No,Moderate,Healthy
+59d67bd7,29,Other,132/86,284,18.2,Yes,Yes,High,Diabetes
+bda11616,58,Female,146/66,168,34.0,No,No,Moderate,Heart Disease
+99c4591a,46,Other,155/95,159,22.8,Yes,No,Moderate,Heart Disease
+c997f512,59,Female,143/88,190,26.3,Yes,Yes,Moderate,Healthy
+a1a74beb,49,Other,131/85,186,22.0,No,Yes,Moderate,Diabetes
+3ebcfad2,62,Male,149/92,233,39.9,No,No,High,Healthy
+2d341d2c,38,Other,160/88,299,27.2,No,Yes,Low,Heart Disease
+95feb455,80,Male,125/87,211,34.3,No,Yes,High,Obesity
+8b429f17,29,Other,135/83,169,23.3,No,Yes,Moderate,Heart Disease
+af95f173,68,Female,147/90,192,18.3,Yes,Yes,Low,Obesity
+41e66b6e,70,Female,123/66,159,36.3,Yes,No,Low,Obesity
+5804fbc8,41,Female,102/78,182,21.9,No,Yes,Moderate,Hypertension
+7a812481,80,Other,127/65,180,32.4,No,No,Moderate,Healthy
+decc2339,85,Female,99/62,166,23.6,Yes,Yes,Moderate,Healthy
+e82b240a,77,Female,129/75,245,32.3,Yes,Yes,Low,Obesity
+506b311b,19,Female,157/90,220,28.5,No,Yes,Low,Healthy
+4eab750d,38,Female,144/96,194,22.6,No,Yes,High,Diabetes
+3c256437,50,Other,122/84,282,38.3,Yes,Yes,Moderate,Healthy
+9ac88b44,47,Male,107/77,155,26.7,No,Yes,Low,Heart Disease
+6c942174,60,Female,111/75,277,27.8,Yes,No,Low,Diabetes
+405d033c,86,Male,152/96,267,32.5,No,Yes,High,Heart Disease
+6ec9a2e5,70,Male,147/75,284,38.9,No,Yes,Low,Obesity
+6b4df5e4,52,Other,127/77,287,26.8,Yes,Yes,Moderate,Obesity
+c554969f,19,Female,158/88,206,27.6,Yes,Yes,Moderate,Hypertension
+f20ec486,21,Male,149/98,240,22.0,No,No,Low,Heart Disease
+69f6bccd,28,Female,106/99,227,26.7,Yes,No,Low,Heart Disease
+b3974247,30,Female,125/82,228,38.6,No,No,Moderate,Diabetes
+1f070432,72,Other,109/70,166,24.6,No,No,Low,Diabetes
+a38f018e,34,Male,135/78,198,37.6,Yes,No,Moderate,Diabetes
+4127d4fd,69,Female,94/81,267,39.2,Yes,Yes,Moderate,Healthy
+da8fa916,88,Female,94/75,295,26.9,Yes,No,Moderate,Diabetes
+aa74642c,87,Female,145/81,300,29.1,Yes,No,High,Heart Disease
+df50d0a5,42,Female,159/69,237,26.6,Yes,Yes,Moderate,Heart Disease
+05ef65b0,65,Male,143/95,234,22.7,Yes,No,High,Heart Disease
+165b8dda,44,Other,138/81,170,38.9,Yes,No,Low,Heart Disease
+de854641,32,Female,103/76,235,35.6,No,Yes,Low,Diabetes
+ca4119e9,51,Female,151/79,180,27.2,Yes,Yes,Moderate,Diabetes
+37b8f3b8,79,Female,118/62,230,23.0,Yes,Yes,High,Healthy
+5edf55a2,53,Male,113/71,185,37.3,Yes,Yes,High,Heart Disease
+ae55ee9a,22,Female,93/79,165,30.9,Yes,No,Moderate,Diabetes
+ffb80d55,47,Male,155/61,185,39.0,No,No,High,Hypertension
+416c9973,51,Other,111/98,251,27.4,No,Yes,High,Diabetes
+425ba4a8,35,Other,158/75,180,39.6,Yes,Yes,Moderate,Heart Disease
+0cf935f9,20,Female,141/71,220,35.3,Yes,Yes,High,Healthy
+95fc900a,37,Female,155/97,197,23.1,No,No,High,Obesity
+4edc9280,19,Female,112/70,177,33.4,Yes,No,Moderate,Heart Disease
+1388f6de,22,Female,155/94,181,33.3,No,No,High,Obesity
+2132e1f4,26,Male,155/60,292,30.7,Yes,No,Moderate,Hypertension
+2e585450,53,Male,92/83,164,27.3,No,No,Moderate,Hypertension
+f6f017bc,59,Female,138/78,160,21.2,Yes,No,High,Heart Disease
+9d327790,87,Male,134/99,229,29.1,Yes,Yes,Moderate,Hypertension
+8e30f151,50,Female,159/87,196,29.1,Yes,Yes,Low,Heart Disease
+9abdda0b,65,Female,136/80,278,23.0,Yes,Yes,High,Diabetes
+a77990c3,36,Male,120/84,171,23.4,Yes,Yes,Low,Heart Disease
+0db54f5e,89,Other,99/98,215,35.9,No,Yes,Moderate,Healthy
+269084c0,46,Other,101/89,181,27.0,Yes,Yes,Moderate,Hypertension
+34e9c833,57,Female,97/74,289,20.0,No,Yes,Low,Healthy
+2cd500a0,89,Other,121/91,278,36.6,Yes,No,High,Heart Disease
+fba1615a,56,Other,105/78,273,23.1,No,No,Moderate,Obesity
+c0f7d7c3,87,Other,118/81,247,24.8,No,No,High,Heart Disease
+93a2e5f1,18,Male,110/95,177,39.4,Yes,Yes,High,Healthy
+1ab4d7e6,33,Other,134/85,257,32.1,Yes,No,Moderate,Hypertension
+206b8a8a,53,Other,148/85,185,32.5,No,Yes,Moderate,Obesity
+90574073,39,Male,145/92,258,24.7,No,No,Moderate,Diabetes
+bbd1092b,40,Other,153/78,259,21.9,No,No,High,Heart Disease
+1fdabbb2,81,Female,109/88,294,38.8,Yes,No,Low,Heart Disease
+14f1ba98,25,Female,150/66,190,27.9,No,Yes,Moderate,Obesity
+84dbe7c5,29,Female,137/71,273,31.4,No,No,Moderate,Healthy
+769d3d11,40,Male,116/63,250,26.1,Yes,Yes,Moderate,Heart Disease
+d1ca8320,79,Female,116/75,232,26.8,Yes,No,Low,Obesity
+52235a61,58,Other,92/76,210,21.7,No,Yes,Low,Hypertension
+52fe04c0,18,Other,108/66,180,37.2,Yes,No,Low,Obesity
+c6306ab3,25,Other,157/79,161,30.3,Yes,Yes,Moderate,Healthy
+480dea2a,29,Female,104/61,179,19.4,No,No,Moderate,Heart Disease
+78f9a4fc,85,Female,125/60,284,34.7,Yes,Yes,Low,Obesity
+ad7ce9c1,29,Male,137/62,229,32.2,Yes,Yes,High,Obesity
+45921ad2,68,Male,130/66,233,21.7,Yes,No,Low,Obesity
+1a11eae4,22,Male,102/63,250,30.1,No,No,Moderate,Healthy
+d3d0dddf,81,Female,158/80,219,20.0,No,No,High,Heart Disease
+883ef939,85,Other,96/96,212,19.2,Yes,No,Moderate,Diabetes
+a95e8832,23,Other,132/71,243,20.7,No,No,High,Healthy
+680a58bb,64,Other,105/70,251,27.8,No,No,High,Obesity
+1227a1fe,76,Male,92/96,205,23.1,No,Yes,Moderate,Obesity
+9e05ab4d,32,Other,127/82,248,38.3,Yes,Yes,Low,Heart Disease
+d43f2264,60,Female,111/79,257,32.3,No,No,High,Hypertension
+8b70246d,46,Male,105/61,153,33.9,Yes,Yes,High,Hypertension
+a94c321d,28,Other,120/77,296,18.4,No,Yes,Moderate,Heart Disease
+9956cdff,41,Other,126/73,293,39.4,No,Yes,Moderate,Obesity
+1ea1886f,65,Male,126/70,210,27.5,Yes,No,High,Diabetes
+624d2b98,88,Other,159/97,300,35.2,Yes,Yes,High,Obesity
+df1aee84,51,Male,119/99,219,25.1,Yes,Yes,High,Healthy
+7314f588,90,Female,158/98,275,18.8,No,Yes,High,Obesity
+cdaf2b6f,59,Male,98/61,174,35.6,Yes,No,High,Hypertension
+7d71d39f,76,Male,134/77,170,31.9,No,No,Moderate,Heart Disease
+27a64ad4,20,Other,143/93,204,31.7,No,Yes,Moderate,Healthy
+56b13f37,83,Female,154/78,278,26.4,Yes,No,Moderate,Diabetes
+341c31e7,19,Male,123/79,280,33.8,No,Yes,High,Hypertension
+cf5fdb9e,31,Other,109/81,228,33.9,No,No,Low,Obesity
+80ec1e37,33,Female,156/73,233,33.2,Yes,Yes,High,Obesity
+c8f9f991,43,Other,127/64,238,19.9,Yes,No,Low,Hypertension
+1e01b31b,26,Female,139/100,171,18.3,No,Yes,Moderate,Diabetes
+5dd98fe5,26,Other,139/75,258,32.5,No,No,Low,Healthy
+ea0a1076,66,Other,158/72,259,21.7,Yes,Yes,High,Heart Disease
+eca36062,42,Other,122/79,151,33.1,No,Yes,Low,Healthy
+5060e79e,26,Male,96/77,278,32.5,No,No,Moderate,Healthy
+3bb54764,23,Male,151/78,231,26.8,No,No,Moderate,Diabetes
+86a9acf2,43,Other,132/91,273,39.0,Yes,Yes,Low,Diabetes
+ddbc961f,90,Other,118/79,160,20.2,No,Yes,Low,Obesity
+31382bdb,66,Male,112/74,188,28.6,Yes,Yes,Moderate,Obesity
+8e1cd5cc,39,Other,160/100,190,30.9,Yes,Yes,High,Obesity
+9c445fb5,72,Male,102/66,212,36.6,No,No,High,Obesity
+581ca4cf,34,Male,108/80,156,37.6,Yes,Yes,Low,Diabetes
+401ff30c,68,Female,143/77,217,35.7,No,Yes,Low,Diabetes
+dcaded74,18,Other,131/96,194,18.3,No,No,Moderate,Diabetes
+fc4f4170,64,Male,113/73,269,27.3,No,Yes,High,Diabetes
+694e015e,87,Male,98/90,194,36.2,No,Yes,Moderate,Healthy
+5254b2b2,61,Other,104/69,280,26.1,Yes,No,Moderate,Obesity
+ce57c4cd,51,Female,130/79,226,25.6,No,No,Low,Healthy
+62a4c668,48,Female,143/72,159,23.0,No,Yes,High,Diabetes
+95e65a36,63,Female,142/62,241,35.0,Yes,Yes,Moderate,Healthy
+1b1634c6,67,Other,138/90,181,20.3,Yes,No,High,Heart Disease
+511d0cdc,30,Other,136/90,268,26.6,Yes,No,Low,Diabetes
+30aa2c49,67,Male,133/77,197,34.1,No,No,Low,Obesity
+8c36d588,32,Female,109/89,159,21.1,No,No,Moderate,Healthy
+dfd5e354,33,Other,116/72,208,30.3,No,No,Moderate,Heart Disease
+880250e3,54,Other,156/90,166,33.3,Yes,No,Moderate,Heart Disease
+9a9c2aa0,34,Male,100/98,176,28.4,No,Yes,High,Obesity
+a004eae6,26,Other,98/68,255,23.9,No,No,High,Diabetes
+4c311712,45,Female,106/99,174,38.1,No,No,Moderate,Obesity
+44e90723,24,Male,126/86,282,28.5,Yes,No,Moderate,Diabetes
+60dc930d,82,Female,99/72,197,25.9,Yes,No,Moderate,Diabetes
+05b13dfe,88,Other,148/71,161,29.6,No,No,High,Diabetes
+d0fb1bac,63,Female,107/76,243,39.1,Yes,Yes,Low,Healthy
+f8333e42,23,Male,131/85,237,37.0,No,No,Moderate,Heart Disease
+8c5dab89,45,Female,110/100,227,23.7,Yes,No,Moderate,Hypertension
+0e891e69,75,Female,152/79,280,37.8,No,No,Moderate,Diabetes
+9fc35619,77,Female,147/98,271,27.3,Yes,Yes,Low,Diabetes
+55e4f367,40,Female,106/68,197,22.6,Yes,No,High,Healthy
+6c9edf20,44,Other,120/72,268,33.9,No,No,Low,Heart Disease
+b1e8b975,21,Male,154/72,226,32.6,No,Yes,Low,Hypertension
+98dd6b78,49,Male,148/96,183,31.4,No,No,High,Diabetes
+c1888ac7,46,Female,99/95,244,30.2,No,Yes,Moderate,Healthy
+9a2776e0,60,Other,151/75,260,24.5,No,Yes,Low,Obesity
+ca8034d1,20,Other,136/66,187,20.4,Yes,No,High,Healthy
+f4ad5146,36,Male,105/95,203,37.3,Yes,Yes,High,Healthy
+f7e612c0,59,Female,124/78,154,24.0,Yes,Yes,Moderate,Hypertension
+82bca208,23,Other,113/93,206,31.0,Yes,Yes,Low,Healthy
+f9315060,74,Female,101/74,224,25.1,No,Yes,High,Obesity
+810d9921,77,Female,144/98,152,31.7,No,Yes,High,Obesity
+a085c992,65,Female,123/76,161,21.9,No,Yes,Moderate,Obesity
+a3b57f33,57,Male,128/66,228,35.1,Yes,Yes,Moderate,Diabetes
+5ba97e76,50,Male,156/65,285,23.9,No,Yes,High,Diabetes
+ae071b4a,19,Female,99/69,293,32.4,No,No,Moderate,Heart Disease
+2280e346,44,Other,112/75,221,35.6,No,No,High,Diabetes
+62a076d8,22,Other,106/88,168,38.0,Yes,Yes,High,Hypertension
+c08be0e9,26,Female,104/81,288,20.0,Yes,Yes,High,Obesity
+f9b5e26f,26,Female,114/81,280,29.5,No,Yes,High,Obesity
+2876a1f6,45,Male,140/88,178,28.5,Yes,No,High,Healthy
+56c92b24,38,Male,129/95,277,25.4,Yes,No,High,Diabetes
+86d13799,19,Other,121/71,225,21.3,Yes,No,Moderate,Obesity
+f60c8426,52,Other,134/89,271,32.3,No,Yes,High,Obesity
+053e1129,73,Male,95/100,297,34.9,No,No,Moderate,Heart Disease
+3928ed13,84,Male,147/64,226,37.5,Yes,Yes,Moderate,Hypertension
+5698faeb,59,Female,104/62,233,27.6,No,No,High,Heart Disease
+3bdc8a80,30,Other,110/90,204,26.7,No,No,High,Diabetes
+95152791,81,Male,152/61,195,24.8,Yes,Yes,Low,Obesity
+7f819d49,39,Female,110/100,284,32.7,No,No,Low,Diabetes
+7fcdb322,52,Other,91/76,167,26.7,No,No,Low,Heart Disease
+0f2444f8,29,Female,121/72,245,37.8,No,No,Moderate,Obesity
+6144b359,77,Female,122/88,205,26.0,Yes,No,Moderate,Healthy
+a28c3742,64,Male,128/88,271,36.9,Yes,Yes,Low,Hypertension
+c7dafc4a,34,Other,153/96,200,18.9,No,No,Moderate,Heart Disease
+69b53004,81,Other,101/83,180,29.6,No,Yes,High,Diabetes
+866a3b1d,19,Other,91/88,154,27.4,No,No,High,Obesity
+dbcb3688,87,Female,119/80,264,20.1,Yes,Yes,Moderate,Heart Disease
+36e57e97,75,Male,133/87,257,38.1,No,No,Low,Healthy
+4b46220e,29,Male,141/90,296,25.8,No,Yes,Moderate,Obesity
+07a20705,76,Male,96/68,196,20.5,Yes,No,Moderate,Hypertension
+c6c3e8d1,39,Female,157/90,277,39.4,No,No,Low,Obesity
+1df1ace6,24,Female,149/92,300,29.8,Yes,No,Moderate,Heart Disease
+43937d21,61,Male,160/73,174,34.9,Yes,No,Moderate,Diabetes
+a470cd2f,18,Other,99/76,268,37.2,No,No,High,Obesity
+060ebaa9,20,Female,159/77,157,18.1,Yes,No,Moderate,Healthy
+b5c6e2bb,76,Male,155/60,159,24.0,No,Yes,High,Hypertension
+01c9752d,87,Other,100/93,299,26.0,No,No,High,Hypertension
+3699da84,88,Male,97/78,211,19.5,No,Yes,Moderate,Heart Disease
+a81f46c0,62,Other,101/69,214,33.3,Yes,No,Low,Healthy
+063ab928,61,Male,104/62,231,19.9,Yes,No,Moderate,Healthy
+12687970,41,Other,159/77,152,27.4,No,Yes,Low,Diabetes
+aab436e1,62,Female,138/86,278,35.4,Yes,No,High,Healthy
+e1cbee3d,45,Female,98/94,245,25.1,Yes,Yes,High,Heart Disease
+74dac785,77,Other,136/70,183,23.9,Yes,No,Moderate,Healthy
+2554d6e6,53,Male,96/96,284,32.0,No,No,Low,Heart Disease
+0fb48cb0,39,Female,140/94,223,24.1,Yes,Yes,Moderate,Heart Disease
+08947592,81,Other,156/75,206,37.5,Yes,No,High,Diabetes
+dba57e2f,72,Male,157/76,224,24.9,Yes,No,Moderate,Hypertension
+6c984f85,21,Male,142/84,220,32.3,No,Yes,High,Healthy
+cb8fdb6f,45,Male,95/79,153,34.0,No,No,High,Heart Disease
+1084a0db,56,Other,113/67,220,39.1,No,Yes,High,Healthy
+10d15303,73,Male,144/83,216,29.0,Yes,No,High,Diabetes
+91e61180,90,Female,145/84,194,34.8,Yes,No,Moderate,Obesity
+e73714d4,18,Other,114/74,160,35.0,Yes,Yes,Moderate,Heart Disease
+1e88c02c,23,Male,112/71,255,32.4,No,No,Low,Obesity
+cfcaf6f9,60,Male,102/74,229,33.8,Yes,Yes,Moderate,Hypertension
+5d3e0f28,59,Other,100/66,230,18.8,No,Yes,High,Diabetes
+2ccdc0f0,43,Male,160/96,186,34.2,No,Yes,Low,Healthy
+6f814b17,33,Other,92/83,188,25.0,No,Yes,High,Obesity
+0fe94f74,48,Female,147/86,252,28.7,No,No,Moderate,Obesity
+1bf6c1f4,50,Male,90/81,275,31.1,Yes,No,Low,Heart Disease
+bd745245,46,Other,119/94,255,36.9,Yes,Yes,High,Hypertension
+b40abc15,41,Male,100/65,298,37.4,No,Yes,Low,Heart Disease
+4eeb1ec9,49,Other,146/92,173,31.8,Yes,Yes,High,Diabetes
+d7b2c78d,69,Male,137/67,154,35.8,No,Yes,Low,Diabetes
+ff1129ff,47,Male,116/90,255,23.1,Yes,No,Moderate,Healthy
+c3b00d12,42,Male,97/70,239,32.3,No,No,Moderate,Obesity
+9b255f41,56,Other,155/75,209,30.6,Yes,No,Low,Obesity
+5b8a0226,56,Male,154/77,166,18.4,Yes,Yes,High,Heart Disease
+3b5dd817,85,Male,109/74,181,21.0,Yes,Yes,Low,Obesity
+d11b1088,29,Female,141/78,218,32.6,Yes,Yes,Moderate,Heart Disease
+f03b140c,88,Male,113/80,298,27.8,No,No,Moderate,Obesity
+6370d45f,22,Male,121/70,198,37.1,No,Yes,Low,Diabetes
+f4289743,47,Male,151/74,183,39.9,Yes,No,Moderate,Heart Disease
+48699fff,28,Female,140/100,193,39.3,No,No,Moderate,Diabetes
+5c752012,41,Male,151/67,197,29.8,No,No,High,Hypertension
+d31ac912,21,Female,132/76,196,31.0,No,Yes,Moderate,Healthy
+7ff0f6c0,43,Female,134/90,186,32.1,Yes,No,Moderate,Heart Disease
+17db728b,56,Female,95/85,292,18.8,Yes,Yes,High,Heart Disease
+4ebf934f,32,Other,156/99,184,22.4,Yes,Yes,Moderate,Diabetes
+851db0d9,37,Male,154/63,169,36.1,No,No,Moderate,Hypertension
+d3027088,87,Female,110/80,199,39.5,Yes,Yes,High,Heart Disease
+f6fb64d6,25,Female,153/98,256,32.6,Yes,No,High,Heart Disease
+14d3e835,38,Female,90/97,155,21.1,No,No,High,Obesity
+c718a27d,47,Female,149/83,214,28.6,Yes,Yes,Moderate,Healthy
+80cdbe14,33,Other,96/69,223,39.0,No,No,Low,Diabetes
+cfb1f74a,75,Other,118/96,191,22.1,No,Yes,Low,Hypertension
+193e5f0c,55,Other,145/67,255,26.6,Yes,No,High,Diabetes
+572e91c2,23,Male,149/64,249,26.2,No,Yes,Moderate,Obesity
+e60761c9,48,Female,96/92,260,37.2,No,Yes,High,Heart Disease
+383b2c7f,67,Female,90/64,279,25.8,No,No,Moderate,Heart Disease
+cc3f9097,57,Male,113/73,212,32.1,No,Yes,Moderate,Heart Disease
+cb5b9033,87,Female,146/92,186,37.3,Yes,Yes,High,Healthy
+01f9e460,75,Female,135/62,171,22.1,Yes,Yes,High,Diabetes
+130b5188,27,Female,148/89,225,20.7,No,No,High,Heart Disease
+504b7b52,20,Female,158/85,155,33.9,Yes,Yes,Low,Heart Disease
+22faa4d6,57,Other,109/89,161,21.1,Yes,Yes,Low,Obesity
+fbeb9b47,65,Female,105/75,268,21.1,Yes,Yes,Low,Heart Disease
+40259d06,44,Male,160/79,195,34.0,No,Yes,Moderate,Heart Disease
+a6f12ab5,30,Other,134/81,274,29.9,No,Yes,Low,Hypertension
+180afb6e,28,Other,109/79,233,34.5,Yes,No,Low,Diabetes
+8b074c68,35,Other,138/68,266,22.8,No,No,Moderate,Obesity
+aa4537f4,56,Other,138/72,169,29.1,No,No,Moderate,Heart Disease
+d6af32ce,69,Female,140/92,283,40.0,No,Yes,Moderate,Diabetes
+499e2206,68,Other,110/76,264,35.9,Yes,No,Moderate,Obesity
+0ce8ca68,18,Other,158/95,227,23.6,Yes,No,Low,Healthy
+b48eaa80,23,Male,119/75,281,39.0,No,Yes,High,Diabetes
+a5ce3c9b,61,Other,97/90,152,24.4,No,No,Low,Healthy
+0701f809,62,Female,133/88,173,26.0,Yes,No,High,Heart Disease
+b86f71f0,49,Female,147/75,225,31.4,Yes,No,Low,Diabetes
+a4929b76,85,Female,98/86,272,23.5,Yes,Yes,Low,Hypertension
+a39e904e,44,Female,141/95,244,20.3,Yes,No,Moderate,Diabetes
+f3363712,61,Female,112/83,230,19.0,No,Yes,Low,Heart Disease
+0377ffc3,39,Other,119/75,230,21.2,No,Yes,Moderate,Obesity
+8f99bc9f,86,Other,120/93,282,34.2,Yes,Yes,Moderate,Hypertension
+f95e51f9,21,Other,110/83,213,22.0,No,Yes,Moderate,Hypertension
+f94c5a96,71,Male,123/95,248,36.6,No,No,Low,Obesity
+033cc137,75,Other,147/88,260,20.0,Yes,No,Low,Obesity
+500d857e,66,Female,138/91,201,21.5,No,No,Moderate,Hypertension
+ff477894,85,Male,93/72,150,18.8,Yes,Yes,Moderate,Hypertension
+235b5bbe,44,Male,151/80,192,21.5,No,Yes,High,Diabetes
+1f1b0a93,43,Male,137/96,226,24.8,No,No,High,Healthy
+dd55be54,89,Female,102/64,239,22.9,Yes,No,Moderate,Healthy
+0d1faa5e,77,Female,154/72,176,33.6,Yes,No,High,Healthy
+1ba2945f,79,Female,147/74,285,39.3,No,Yes,High,Healthy
+ea26fd7b,87,Male,129/63,298,18.7,No,Yes,Moderate,Obesity
+77b603ab,65,Male,119/87,193,33.6,Yes,Yes,Low,Heart Disease
+2d1428a5,26,Female,92/96,168,31.6,Yes,Yes,High,Hypertension
+8ab097be,72,Male,132/94,290,39.9,No,Yes,Low,Diabetes
+16acbf7f,19,Male,105/73,167,38.0,No,No,Moderate,Obesity
+59258df8,73,Other,112/81,234,20.7,Yes,Yes,High,Hypertension
+d4bd380e,81,Other,138/72,205,30.9,No,Yes,High,Diabetes
+21b400ab,34,Other,141/89,267,30.4,Yes,Yes,High,Hypertension
+7f0ed7a6,86,Male,137/66,175,20.4,No,Yes,Moderate,Obesity
+7a6ccc21,24,Other,146/73,260,20.4,Yes,No,Moderate,Diabetes
+9112cf07,63,Other,101/95,263,30.0,Yes,Yes,Low,Obesity
+29d90490,63,Other,116/68,264,18.2,Yes,Yes,High,Heart Disease
+f2f5d177,84,Other,130/98,234,30.9,Yes,No,Low,Healthy
+52dbd145,86,Other,119/81,207,19.2,No,Yes,Low,Healthy
+cb97459b,42,Female,118/82,173,27.9,No,Yes,High,Hypertension
+ee829c03,30,Male,94/60,270,27.7,Yes,Yes,Low,Hypertension
+d05d1a48,79,Female,131/62,190,25.4,Yes,Yes,Low,Hypertension
+b01c030e,84,Male,145/78,151,37.5,No,Yes,High,Diabetes
+8e11f053,26,Other,93/71,254,35.7,No,No,High,Heart Disease
+97c2fcef,20,Female,101/87,278,26.2,Yes,No,Low,Heart Disease
+da6949cd,37,Other,104/96,196,34.2,No,No,Moderate,Heart Disease
+7f0462e8,66,Female,150/92,152,35.3,No,No,Moderate,Obesity
+b533ea42,30,Male,95/68,199,31.3,Yes,Yes,Low,Diabetes
+451d70e9,89,Female,93/62,153,37.0,No,Yes,Moderate,Hypertension
+d2f91ee8,62,Other,112/67,261,39.9,No,No,Low,Healthy
+e93eec3c,68,Other,125/88,203,33.9,No,No,Low,Hypertension
+f98f2ac4,69,Female,106/83,161,23.0,No,Yes,Low,Hypertension
+ba989d87,89,Female,146/91,297,36.4,No,No,Moderate,Obesity
+364231cf,33,Female,150/66,159,33.5,No,Yes,High,Healthy
+f0bd76cf,57,Male,151/100,238,21.0,Yes,No,Moderate,Obesity
+44cbbd2e,53,Other,119/84,244,35.7,No,No,Moderate,Heart Disease
+be8d25c9,40,Male,99/99,155,25.1,No,Yes,High,Heart Disease
+67e7b0e2,32,Male,146/95,191,36.7,Yes,No,Low,Heart Disease
+c379e523,42,Other,126/61,207,39.6,Yes,Yes,High,Healthy
+7fdba9b0,57,Male,132/98,277,34.3,No,No,High,Hypertension
+69b947b3,70,Female,104/84,195,39.8,Yes,No,High,Diabetes
+e9222f48,18,Female,111/66,279,38.3,Yes,Yes,High,Heart Disease
+892a0a1f,65,Female,102/81,181,30.3,Yes,No,Low,Healthy
+04431163,72,Male,132/83,171,22.2,Yes,Yes,High,Hypertension
+fedcd839,83,Female,130/85,229,26.3,No,Yes,High,Obesity
+19634991,28,Male,118/78,224,29.7,No,Yes,High,Obesity
+d49535d1,71,Other,156/71,215,29.4,Yes,Yes,Low,Diabetes
+6fc99db6,88,Other,142/96,150,27.0,No,Yes,High,Healthy
+06566d10,42,Male,101/66,280,21.9,Yes,No,Moderate,Diabetes
+7cc2af05,54,Female,108/79,257,39.6,No,No,High,Heart Disease
+634095df,45,Male,125/84,220,29.8,Yes,Yes,High,Diabetes
+10f26020,28,Female,156/81,218,35.9,No,Yes,Low,Heart Disease
+5ae22b03,90,Female,114/67,191,34.5,Yes,No,High,Obesity
+b400dffb,64,Male,149/88,231,29.3,Yes,No,Low,Hypertension
+a27262d3,18,Male,144/70,281,38.0,Yes,No,Moderate,Heart Disease
+3a99249d,33,Other,99/75,237,28.5,No,No,Low,Diabetes
+0a0d9bb8,68,Male,140/72,170,18.4,Yes,Yes,High,Heart Disease
+f58ebac3,21,Female,112/89,281,33.2,No,No,Low,Heart Disease
+ab3cd7f8,35,Other,126/81,271,32.1,No,Yes,Low,Heart Disease
+c204ae43,20,Female,149/65,165,22.5,No,Yes,Moderate,Healthy
+763ac931,24,Female,95/66,258,38.5,No,No,Low,Obesity
+6641eb21,87,Female,128/60,270,39.4,Yes,Yes,Moderate,Heart Disease
+98757666,35,Male,144/93,224,33.4,No,No,Low,Healthy
+06798f0a,44,Other,130/96,164,33.4,No,No,Low,Healthy
+9fadb3b1,52,Other,99/62,220,25.1,No,No,Moderate,Hypertension
+8d543946,48,Female,101/63,182,30.8,No,No,Low,Heart Disease
+41bc69c0,66,Female,131/83,254,35.6,Yes,No,Moderate,Hypertension
+9e697a3e,78,Other,117/84,257,29.5,Yes,Yes,Moderate,Obesity
+4ddae908,90,Female,152/95,276,28.6,Yes,No,Low,Heart Disease
+13880716,34,Other,102/76,260,20.4,No,No,Low,Hypertension
+9a950fb8,19,Other,117/90,180,38.8,No,Yes,Moderate,Diabetes
+652a5cfd,73,Male,99/68,187,38.4,Yes,Yes,Low,Diabetes
+463eec4f,74,Female,142/85,162,19.2,Yes,Yes,Low,Diabetes
+502df5dc,72,Female,143/81,275,29.7,Yes,Yes,Low,Diabetes
+42d328e9,28,Female,106/76,237,19.8,No,No,High,Hypertension
+f591c126,90,Male,132/91,266,37.6,Yes,Yes,Moderate,Healthy
+16307583,68,Female,132/91,192,36.8,No,Yes,Low,Diabetes
+70c92af1,38,Female,94/86,250,33.5,No,No,Low,Obesity
+b48e0fff,60,Other,97/90,166,39.9,Yes,No,Low,Healthy
+0bd7cd9e,59,Other,133/84,199,37.0,No,Yes,High,Obesity
+98e44381,83,Other,111/96,164,18.3,Yes,No,Low,Diabetes
+e8b3f4d2,55,Male,127/83,159,31.3,No,Yes,Low,Healthy
+5d05e754,71,Other,159/78,153,26.3,No,No,Low,Hypertension
+eaf074a4,58,Male,135/87,215,18.4,Yes,Yes,Low,Healthy
+18a5bd3a,55,Female,121/88,295,24.4,Yes,Yes,Moderate,Obesity
+1382ae0e,26,Male,136/63,263,26.7,Yes,No,Moderate,Healthy
+9184c833,26,Female,118/99,237,32.8,No,No,Low,Healthy
+92d68c93,64,Female,145/86,154,24.9,No,Yes,Moderate,Obesity
+179057a5,76,Other,126/91,174,19.9,No,No,Moderate,Diabetes
+f653396f,30,Male,97/85,248,35.0,No,Yes,Low,Obesity
+953bb7e1,87,Female,122/97,208,24.8,No,No,Low,Obesity
+0f6eabcf,90,Male,91/78,276,34.5,Yes,No,Moderate,Heart Disease
+64a16474,52,Other,115/75,258,21.8,No,No,Moderate,Hypertension
+7a9ee2b5,57,Other,118/65,228,34.9,Yes,No,Moderate,Heart Disease
+de6c9770,38,Female,105/98,294,21.1,Yes,No,Low,Diabetes
+463b620a,52,Other,143/64,160,29.7,No,Yes,Moderate,Obesity
+c5604cb1,40,Female,91/84,214,34.1,No,No,Low,Healthy
+c5b5b940,52,Female,138/88,229,22.3,No,No,High,Hypertension
+e0e7ad24,73,Female,151/95,233,21.9,Yes,No,High,Obesity
+dc12bded,34,Female,148/89,278,20.7,Yes,Yes,High,Diabetes
+598da639,20,Male,111/85,291,19.4,No,No,High,Diabetes
+a218a56d,45,Male,141/99,261,24.7,Yes,No,Low,Hypertension
+2ea99ff7,65,Other,93/82,263,20.9,Yes,Yes,High,Healthy
+1e07d0c6,20,Male,160/93,230,35.7,No,No,High,Diabetes
+83697923,48,Other,126/83,236,34.9,Yes,No,Moderate,Hypertension
+13865dfe,27,Other,128/97,270,37.2,No,No,Moderate,Hypertension
+6e58bcf8,66,Male,111/76,209,37.8,No,No,Moderate,Diabetes
+7026266f,60,Female,116/100,257,22.2,Yes,Yes,Moderate,Heart Disease
+0a9a9ded,68,Female,140/77,227,18.4,Yes,Yes,Moderate,Obesity
+589abe33,80,Male,93/60,218,26.5,No,No,Low,Heart Disease
+212b7678,64,Female,132/65,242,21.2,No,Yes,High,Healthy
+14dc8950,51,Other,125/89,173,34.6,Yes,Yes,Moderate,Hypertension
+6185741e,46,Female,94/90,187,20.3,Yes,No,Moderate,Diabetes
+431294f0,18,Other,135/72,218,18.8,Yes,No,Low,Hypertension
+eb0abd1e,49,Female,158/78,173,18.5,Yes,No,Low,Obesity
+f660d390,32,Male,160/91,164,27.5,No,No,High,Hypertension
+8cc40dcd,63,Female,136/88,232,32.7,No,Yes,Low,Heart Disease
+ee999f89,55,Female,156/83,243,23.7,No,No,Low,Heart Disease
+6680651d,64,Other,155/71,223,38.3,Yes,Yes,Moderate,Obesity
+867bcd23,84,Male,98/66,293,31.7,Yes,Yes,Low,Hypertension
+7e25a628,43,Male,100/86,266,21.8,Yes,No,High,Obesity
+e8af1742,62,Female,123/69,256,35.6,Yes,No,Moderate,Diabetes
+057fe2ac,86,Other,140/81,160,33.2,No,No,Low,Hypertension
+38bd67e2,53,Male,140/80,264,34.3,Yes,No,Moderate,Obesity
+421ee474,42,Female,158/69,179,20.9,No,Yes,High,Hypertension
+09026308,22,Male,148/72,153,30.2,Yes,Yes,Low,Diabetes
+eaec1104,56,Female,109/85,290,38.0,No,No,Low,Healthy
+d591220b,49,Female,135/96,270,32.1,Yes,No,High,Obesity
+a0ffa229,62,Other,140/77,164,33.0,Yes,No,Low,Heart Disease
+bbe90f89,26,Other,142/87,228,19.4,No,Yes,Low,Hypertension
+69070af4,45,Male,115/60,286,38.7,No,Yes,Low,Hypertension
+01eaf98e,57,Male,112/97,163,31.8,No,No,High,Diabetes
+aea64ff9,81,Female,106/80,186,37.3,No,Yes,Low,Obesity
+648f6758,49,Other,135/69,167,33.0,No,Yes,Moderate,Diabetes
+bc33afdb,84,Other,139/84,254,39.8,No,Yes,Moderate,Healthy
+8e7af3d2,62,Male,120/99,222,22.0,Yes,No,High,Healthy
+e37932f1,48,Other,136/72,150,22.1,Yes,No,Low,Diabetes
+4b10e877,64,Male,108/69,271,35.9,Yes,Yes,Low,Healthy
+b4cb268f,20,Other,111/88,276,19.7,Yes,No,Moderate,Obesity
+b07dc6d3,32,Female,111/70,211,38.4,Yes,Yes,Moderate,Healthy
+5fcb1310,53,Other,115/94,271,21.4,Yes,No,Moderate,Diabetes
+6e34bfeb,63,Male,137/67,291,37.5,No,Yes,Low,Diabetes
+1f6e39a2,26,Female,158/82,244,31.1,Yes,Yes,High,Healthy
+57fc6e06,79,Other,106/80,243,24.1,Yes,No,High,Healthy
+ea22fb62,34,Male,157/64,252,36.3,No,No,High,Healthy
+d061dc8a,48,Male,95/93,225,38.3,No,Yes,Moderate,Hypertension
+bb3e0e93,39,Female,135/97,225,38.9,No,Yes,High,Obesity
+9cba8cb9,58,Male,95/95,264,24.2,Yes,No,High,Heart Disease
+20c1af0b,64,Female,118/75,293,34.3,No,Yes,High,Hypertension
+aef04831,23,Male,101/61,164,23.0,No,Yes,High,Hypertension
+e4076824,54,Female,125/61,299,23.4,Yes,Yes,Low,Heart Disease
+0f28085f,54,Other,132/99,182,39.4,No,No,High,Obesity
+cac78534,20,Other,153/66,228,35.4,No,No,Low,Diabetes
+fe9ab5e9,38,Other,120/71,262,35.6,No,No,Low,Healthy
+a0e43f9e,89,Other,132/76,158,32.0,No,Yes,Low,Heart Disease
+b2766352,18,Female,135/73,289,33.0,Yes,No,Moderate,Diabetes
+61f3a4bc,20,Male,120/63,189,18.2,Yes,No,Moderate,Diabetes
+b85623b5,30,Male,90/98,238,18.6,Yes,Yes,High,Diabetes
+285508c6,29,Other,107/62,171,34.5,No,Yes,Moderate,Hypertension
+9a54b98d,44,Female,137/72,184,27.1,No,No,High,Heart Disease
+32e44c8e,56,Female,116/74,282,39.2,No,No,Moderate,Diabetes
+ba587ba8,80,Male,141/98,293,30.4,No,Yes,Low,Healthy
+f4959645,63,Male,103/83,239,37.4,Yes,Yes,Moderate,Heart Disease
+578b2a3e,78,Other,160/64,212,20.8,No,No,High,Hypertension
+6dbbd94c,88,Female,133/81,270,32.7,Yes,No,Moderate,Hypertension
+13066d56,71,Other,91/88,155,23.2,No,Yes,Moderate,Heart Disease
+6726c6dc,81,Other,151/71,235,39.6,Yes,Yes,High,Obesity
+c6afe84b,24,Male,103/90,184,31.0,No,No,Low,Hypertension
+7d6d316a,63,Other,92/92,204,21.1,Yes,Yes,Low,Healthy
+61b2192f,51,Female,151/61,245,36.6,Yes,Yes,High,Healthy
+3a865aa9,28,Female,129/83,185,34.5,No,No,High,Heart Disease
+c00c3372,89,Male,99/73,253,26.2,No,No,Low,Diabetes
+42f97bb8,30,Female,106/71,255,35.3,Yes,No,Low,Diabetes
+21737f4d,31,Other,96/65,221,39.0,No,Yes,Moderate,Heart Disease
+406f5ee3,72,Male,128/61,183,26.8,No,No,Low,Healthy
+6d5ba16f,77,Other,112/74,167,31.1,No,No,Low,Healthy
+5074da89,55,Male,153/61,240,31.6,No,No,Low,Diabetes
+23ece9b9,61,Male,134/91,215,37.3,No,No,High,Heart Disease
+189148df,62,Male,91/61,300,38.9,No,No,Low,Obesity
+f808b54c,36,Female,152/93,260,31.3,No,Yes,Moderate,Heart Disease
+e049821d,90,Female,138/97,266,19.8,No,Yes,Moderate,Healthy
+e46767ed,21,Male,153/86,263,31.7,No,Yes,Low,Obesity
+9706a5e8,76,Female,108/68,163,39.5,Yes,Yes,Low,Obesity
+862c1658,77,Other,113/79,288,26.9,No,No,Moderate,Hypertension
+1a2a381a,79,Male,139/79,183,26.2,Yes,Yes,High,Heart Disease
+e7194bea,76,Other,102/71,166,33.4,Yes,No,Moderate,Obesity
+777c9624,77,Female,148/75,255,28.6,Yes,Yes,Low,Diabetes
+615a89c7,68,Male,124/99,192,20.5,No,Yes,Low,Hypertension
+0ad519aa,37,Male,97/93,163,23.4,Yes,Yes,High,Hypertension
+4925b19c,89,Other,155/62,179,33.6,No,No,Moderate,Healthy
+f2a7d62b,38,Other,135/61,227,37.4,Yes,Yes,Low,Hypertension
+7efdaf3a,46,Male,132/82,233,26.3,Yes,Yes,Low,Healthy
+3e21c49c,68,Female,97/94,212,19.7,No,Yes,Low,Healthy
+0bd59d7d,56,Other,137/60,237,33.1,Yes,No,High,Heart Disease
+27da6037,27,Female,125/65,182,34.5,Yes,No,Low,Healthy
+23256c03,70,Other,105/87,216,36.4,Yes,No,Low,Diabetes
+56c336e3,27,Other,159/63,256,39.8,No,No,Moderate,Diabetes
+151e67e7,43,Female,124/89,233,33.5,No,Yes,Moderate,Obesity
+77e065f0,45,Female,142/83,164,28.3,No,Yes,High,Obesity
+75c5ec2d,36,Female,115/76,201,18.2,Yes,Yes,Low,Heart Disease
+902a4a41,30,Female,151/60,166,27.1,Yes,No,Low,Obesity
+175179e4,30,Other,160/62,182,32.6,No,No,Low,Healthy
+cd63958e,43,Other,149/78,188,30.5,No,No,High,Heart Disease
+3ae69276,50,Female,148/99,259,39.2,Yes,Yes,High,Healthy
+1dc2eeae,68,Other,134/100,275,20.5,No,Yes,High,Heart Disease
+cb04515e,21,Other,158/92,242,21.7,Yes,Yes,Low,Obesity
+b5e2566d,50,Other,132/88,242,39.9,No,No,Low,Obesity
+6f89844f,18,Female,157/66,209,32.0,No,Yes,High,Diabetes
+f38ccffc,57,Female,96/62,274,26.5,No,Yes,Low,Diabetes
+cd262246,72,Male,138/72,253,36.9,No,No,Low,Diabetes
