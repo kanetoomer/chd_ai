@@ -299,7 +299,7 @@ const Reports = () => {
             </h3>
 
             <p className="mt-1 text-sm text-gray-500">
-              Based on: {report.dataset.name}
+              Based on: {report.dataset.name || "Unknown Dataset"}
             </p>
 
             <p className="mt-1 text-xs text-gray-400">
