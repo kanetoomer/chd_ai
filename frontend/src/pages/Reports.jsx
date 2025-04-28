@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import {
   HiDocumentReport,
   HiOutlineDocumentAdd,
-  HiDownload,
   HiTrash,
   HiEye,
   HiSearch,
@@ -299,7 +298,7 @@ const Reports = () => {
             </h3>
 
             <p className="mt-1 text-sm text-gray-500">
-              Based on: {report.dataset.name || "Unknown Dataset"}
+              Based on: {report.dataset?.name || "Unknown Dataset"}
             </p>
 
             <p className="mt-1 text-xs text-gray-400">
