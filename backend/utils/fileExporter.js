@@ -5,12 +5,6 @@ const PDFDocument = require("pdfkit");
 const htmlPdf = require("html-pdf");
 const ejs = require("ejs");
 
-/**
- * Export data to CSV file
- * @param {Array} data - Data to export
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const exportToCsv = (data, filename) => {
   return new Promise((resolve, reject) => {
     try {
@@ -43,12 +37,6 @@ const exportToCsv = (data, filename) => {
   });
 };
 
-/**
- * Export report to PDF
- * @param {Object} report - Report data
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const exportToPdf = (report, filename) => {
   return new Promise((resolve, reject) => {
     try {
@@ -155,12 +143,6 @@ const exportToPdf = (report, filename) => {
   });
 };
 
-/**
- * Export report to HTML
- * @param {Object} report - Report data
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const exportToHtml = (report, filename) => {
   return new Promise((resolve, reject) => {
     try {
@@ -199,12 +181,6 @@ const exportToHtml = (report, filename) => {
   });
 };
 
-/**
- * Export raw data to JSON
- * @param {Object} data - Data to export
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const exportToJson = (data, filename) => {
   return new Promise((resolve, reject) => {
     try {
@@ -232,12 +208,6 @@ const exportToJson = (data, filename) => {
   });
 };
 
-/**
- * Export visualization to image
- * @param {String} base64Image - Base64 encoded image data
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const exportVisualizationToImage = (base64Image, filename) => {
   return new Promise((resolve, reject) => {
     try {
@@ -266,12 +236,6 @@ const exportVisualizationToImage = (base64Image, filename) => {
   });
 };
 
-/**
- * Convert HTML report to PDF
- * @param {String} htmlFilePath - Path to HTML file
- * @param {String} filename - Output filename
- * @returns {String} - Path to the exported file
- */
 const convertHtmlToPdf = (htmlFilePath, filename) => {
   return new Promise((resolve, reject) => {
     try {

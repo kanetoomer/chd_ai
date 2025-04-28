@@ -1,4 +1,3 @@
-// src/pages/DataViewer.jsx
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import {
@@ -66,13 +65,13 @@ const DataViewer = () => {
   // Handle row limit change
   const handleLimitChange = (e) => {
     setLimit(Number(e.target.value));
-    setPage(1); // Reset to first page when changing limit
+    setPage(1);
   };
 
   // Handle search
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
-    setPage(1); // Reset to first page when searching
+    setPage(1);
   };
 
   // Handle download

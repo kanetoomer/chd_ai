@@ -23,7 +23,7 @@ const createAdmin = async () => {
     const admin = await User.create({
       name: "Admin User",
       email: "admin@example.com",
-      password: "password123", // Change this to a secure password
+      password: "password123",
       role: "admin",
       organization: "Grand Canyon University",
     });
@@ -51,7 +51,7 @@ const createTestUser = async () => {
     const user = await User.create({
       name: "Test User",
       email: "user@example.com",
-      password: "password123", // Change this to a secure password
+      password: "password123",
       role: "user",
       organization: "Test Organization",
     });

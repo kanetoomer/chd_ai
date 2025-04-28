@@ -1,9 +1,3 @@
-/**
- * Format bytes to human-readable format
- * @param {number} bytes - Number of bytes
- * @param {number} decimals - Number of decimal places
- * @returns {string} - Formatted string
- */
 export const formatBytes = (bytes, decimals = 2) => {
   if (bytes === 0) return "0 Bytes";
 
@@ -16,11 +10,6 @@ export const formatBytes = (bytes, decimals = 2) => {
   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + " " + sizes[i];
 };
 
-/**
- * Format date to human-readable format
- * @param {string|Date} date - Date to format
- * @returns {string} - Formatted date string
- */
 export const formatDate = (date) => {
   if (!date) return "";
 
@@ -34,23 +23,12 @@ export const formatDate = (date) => {
   });
 };
 
-/**
- * Truncate text to a specified length
- * @param {string} text - Text to truncate
- * @param {number} length - Maximum length
- * @returns {string} - Truncated text
- */
 export const truncateText = (text, length = 50) => {
   if (!text) return "";
 
   return text.length > length ? text.substring(0, length) + "..." : text;
 };
 
-/**
- * Generate a text color based on background color
- * @param {string} bgColor - Background color (hex)
- * @returns {string} - Text color (white or black)
- */
 export const getContrastColor = (bgColor) => {
   // Convert hex to RGB
   let color = bgColor.charAt(0) === "#" ? bgColor.substring(1, 7) : bgColor;

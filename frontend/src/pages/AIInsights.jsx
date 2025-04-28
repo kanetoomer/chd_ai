@@ -146,7 +146,7 @@ const AIInsights = () => {
           source: insight.source || "user",
           timestamp: insight.timestamp,
         })),
-        visualizations: [], // (optional for now — we'll populate later)
+        visualizations: [],
       };
 
       const response = await apiService.post("/reports", payload);

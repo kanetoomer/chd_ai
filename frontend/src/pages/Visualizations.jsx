@@ -116,14 +116,14 @@ const Visualizations = () => {
     ) {
       setChartConfig((prev) => ({
         ...prev,
-        xAxis: columns.categorical[0], // category field
-        yAxis: columns.numeric[0], // value field
+        xAxis: columns.categorical[0],
+        yAxis: columns.numeric[0],
       }));
     } else if (type === "scatter" && columns.numeric.length > 1) {
       setChartConfig((prev) => ({
         ...prev,
-        xAxis: columns.numeric[0], // x-axis field
-        yAxis: columns.numeric[1], // y-axis field
+        xAxis: columns.numeric[0],
+        yAxis: columns.numeric[1],
       }));
     }
   };
@@ -209,7 +209,6 @@ const Visualizations = () => {
           };
         });
       } else if (chartType === "pie") {
-        // Similar to bar chart but for pie chart
         const groupedData = {};
 
         currentDataset.data.forEach((row) => {
@@ -230,7 +229,6 @@ const Visualizations = () => {
           value: groupedData[category],
         }));
       } else if (chartType === "scatter") {
-        // For scatter plot, we need pairs of values
         return currentDataset.data
           .filter((row) => {
             const x = parseFloat(row[xAxis]);
@@ -240,7 +238,7 @@ const Visualizations = () => {
           .map((row) => ({
             x: parseFloat(row[xAxis]),
             y: parseFloat(row[yAxis]),
-            name: row[columns.categorical[0]] || "", // Use first categorical column for labels
+            name: row[columns.categorical[0]] || "",
           }));
       }
 

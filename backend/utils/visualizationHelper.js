@@ -1,15 +1,3 @@
-/**
- * Visualization helper functions for generating chart data
- */
-
-/**
- * Generate data for a bar chart
- * @param {Array} data - The dataset
- * @param {String} categoryField - Field to use as categories (x-axis)
- * @param {String} valueField - Field to measure (y-axis)
- * @param {String} aggregation - Aggregation method (sum, avg, count, min, max)
- * @returns {Object} - Formatted data for a bar chart
- */
 const generateBarChartData = (
   data,
   categoryField,
@@ -86,14 +74,6 @@ const generateBarChartData = (
   };
 };
 
-/**
- * Generate data for a line chart
- * @param {Array} data - The dataset
- * @param {String} timeField - Field to use as time series (x-axis)
- * @param {Array} valueFields - Fields to measure (multiple y-axis values)
- * @param {String} aggregation - Aggregation method (sum, avg)
- * @returns {Object} - Formatted data for a line chart
- */
 const generateLineChartData = (
   data,
   timeField,
@@ -174,13 +154,6 @@ const generateLineChartData = (
   };
 };
 
-/**
- * Generate data for a pie chart
- * @param {Array} data - The dataset
- * @param {String} categoryField - Field to use as categories
- * @param {String} valueField - Field to measure
- * @returns {Object} - Formatted data for a pie chart
- */
 const generatePieChartData = (data, categoryField, valueField) => {
   // Validate inputs
   if (!data || !data.length || !categoryField || !valueField) {
@@ -227,15 +200,6 @@ const generatePieChartData = (data, categoryField, valueField) => {
   };
 };
 
-/**
- * Generate data for a scatter plot
- * @param {Array} data - The dataset
- * @param {String} xField - Field for x-axis
- * @param {String} yField - Field for y-axis
- * @param {String} labelField - Field for data point labels (optional)
- * @param {String} sizeField - Field for data point size (optional)
- * @returns {Object} - Formatted data for a scatter plot
- */
 const generateScatterPlotData = (
   data,
   xField,
@@ -282,14 +246,6 @@ const generateScatterPlotData = (
   };
 };
 
-/**
- * Generate data for a heatmap
- * @param {Array} data - The dataset
- * @param {String} rowField - Field for row categories
- * @param {String} columnField - Field for column categories
- * @param {String} valueField - Field for cell values
- * @returns {Object} - Formatted data for a heatmap
- */
 const generateHeatmapData = (data, rowField, columnField, valueField) => {
   // Validate inputs
   if (!data || !data.length || !rowField || !columnField || !valueField) {

@@ -1,8 +1,5 @@
 const { body, validationResult } = require("express-validator");
 
-/**
- * Validate request middleware
- */
 const validate = (validations) => {
   return async (req, res, next) => {
     // Execute all validations

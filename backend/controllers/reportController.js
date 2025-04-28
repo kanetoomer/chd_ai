@@ -2,10 +2,6 @@ const ReportModel = require("../models/Report");
 const DatasetModel = require("../models/Dataset");
 const mongoose = require("mongoose");
 
-/**
- * Create a new report
- * @route POST /api/reports
- */
 const createReport = async (req, res) => {
   try {
     const { datasetId, visualizations, insights, name } = req.body;
@@ -52,10 +48,6 @@ const createReport = async (req, res) => {
   }
 };
 
-/**
- * Get all reports
- * @route GET /api/reports
- */
 const getAllReports = async (req, res) => {
   try {
     const reports = await ReportModel.find({}).populate("dataset", "name");
@@ -73,10 +65,6 @@ const getAllReports = async (req, res) => {
   }
 };
 
-/**
- * Get report by ID
- * @route GET /api/reports/:id
- */
 const getReportById = async (req, res) => {
   try {
     const { id } = req.params;
@@ -111,10 +99,6 @@ const getReportById = async (req, res) => {
   }
 };
 
-/**
- * Delete report
- * @route DELETE /api/reports/:id
- */
 const deleteReport = async (req, res) => {
   try {
     const { id } = req.params;
@@ -151,10 +135,6 @@ const deleteReport = async (req, res) => {
   }
 };
 
-/**
- * Export report
- * @route GET /api/reports/:id/export/:format
- */
 const exportReport = async (req, res) => {
   try {
     const { id, format } = req.params;

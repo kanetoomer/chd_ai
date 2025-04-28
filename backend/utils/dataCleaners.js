@@ -1,7 +1,3 @@
-/**
- * Utility functions for cleaning and processing datasets
- */
-
 // Remove duplicate rows from a dataset
 const removeDuplicates = (data) => {
   const uniqueMap = new Map();
@@ -19,12 +15,6 @@ const removeDuplicates = (data) => {
   });
 };
 
-/**
- * Handle missing values in the dataset
- * @param {Array} data - The dataset
- * @param {String} strategy - Strategy to handle missing values: 'remove', 'mean', 'median', 'mode', 'zero'
- * @returns {Array} - The dataset with missing values handled
- */
 const handleMissingValues = (data, strategy = "remove") => {
   if (!data.length) return [];
 
@@ -116,12 +106,6 @@ const handleMissingValues = (data, strategy = "remove") => {
   });
 };
 
-/**
- * Standardize data in specific columns (z-score normalization)
- * @param {Array} data - The dataset
- * @param {Array} columns - Columns to standardize
- * @returns {Array} - The dataset with standardized columns
- */
 const standardizeData = (data, columns) => {
   if (!data.length || !columns.length) return data;
 

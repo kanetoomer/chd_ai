@@ -1,4 +1,3 @@
-// src/pages/Profile.jsx
 import React, { useState } from "react";
 import {
   HiUser,

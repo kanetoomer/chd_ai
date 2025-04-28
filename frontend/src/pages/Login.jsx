@@ -7,7 +7,7 @@ import { useAuth } from "../context/AuthContext";
 
 const Login = () => {
   const navigate = useNavigate();
-  const { login } = useAuth(); // ✅ use login from AuthContext
+  const { login } = useAuth();
 
   const [formData, setFormData] = useState({
     email: "",
@@ -25,11 +25,11 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    const success = await login(formData.email, formData.password); // ✅ use context login
+    const success = await login(formData.email, formData.password);
 
     if (success) {
       toast.success("Login successful");
-      navigate("/"); // ✅ redirect after successful login
+      navigate("/");
     } else {
       toast.error("Invalid credentials");
     }

@@ -4,12 +4,12 @@ const User = require("../models/User");
 // Auth middleware
 const authMiddleware = async (req, res, next) => {
   try {
-    const authHeader = req.headers["authorization"]; // Always lowercase
+    const authHeader = req.headers["authorization"];
 
     console.log("🧠 Raw Authorization header:", authHeader);
 
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      console.log("❌ No Bearer token provided");
+      console.log("No Bearer token provided");
       return res.status(401).json({
         success: false,
         message: "No token, authorization denied",
@@ -20,7 +20,7 @@ const authMiddleware = async (req, res, next) => {
     const token = authHeader.split(" ")[1];
 
     if (!token) {
-      console.log("❌ Token is missing after Bearer");
+      console.log("Token is missing after Bearer");
       return res.status(401).json({
         success: false,
         message: "No token, authorization denied",
@@ -35,7 +35,7 @@ const authMiddleware = async (req, res, next) => {
     const user = await User.findById(decoded.id).select("-password");
 
     if (!user) {
-      console.log("❌ User not found for decoded ID");
+      console.log("User not found for decoded ID");
       return res.status(401).json({
         success: false,
         message: "User not found",
@@ -46,7 +46,7 @@ const authMiddleware = async (req, res, next) => {
     req.user = user;
     next();
   } catch (error) {
-    console.error("❌ Error verifying token:", error.message);
+    console.error("Error verifying token:", error.message);
 
     return res.status(401).json({
       success: false,

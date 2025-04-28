@@ -32,7 +32,6 @@ export const AuthProvider = ({ children }) => {
           setIsAuthenticated(true);
 
           // Verify token validity with the server
-          // This is optional but recommended for security
           try {
             const response = await apiService.get("/auth/me");
             setCurrentUser(response.user);
@@ -117,7 +116,7 @@ export const AuthProvider = ({ children }) => {
   // Logout function
   const handleLogout = async () => {
     try {
-      // Call logout API (optional, depends on your backend)
+      // Call logout API
       await apiService.post("/auth/logout");
     } catch (error) {
       console.error("Logout error:", error);

@@ -1,6 +1,3 @@
-/**
- * Configuration for Claude AI integration
- */
 const claudeConfig = {
   apiUrl: "https://api.anthropic.com/v1/messages",
   model: "claude-3-opus-20240229",

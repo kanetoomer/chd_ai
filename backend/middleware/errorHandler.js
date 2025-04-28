@@ -1,6 +1,3 @@
-/**
- * Global error handling middleware
- */
 const errorHandler = (err, req, res, next) => {
   // Log error for server-side debugging
   console.error(err.stack);

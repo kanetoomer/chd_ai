@@ -10,7 +10,7 @@ const {
 // Configure multer for file uploads
 const { upload } = require("../config/multerConfig");
 
-// 🔐 All routes are protected by auth
+// All routes are protected by auth
 router.use(authMiddleware);
 
 // Upload datasets (up to 5 files)

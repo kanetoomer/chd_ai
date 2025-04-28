@@ -1,8 +1,3 @@
-/**
- * Generate array of colors for charts
- * @param {number} count - Number of colors needed
- * @returns {Array} - Array of color strings
- */
 export const generateChartColors = (count) => {
   const baseColors = [
     "#4285F4", // Blue
@@ -44,12 +39,6 @@ export const generateChartColors = (count) => {
   return baseColors.slice(0, count);
 };
 
-/**
- * Generate gradient for chart backgrounds
- * @param {string} color - Base color (hex)
- * @param {number} opacity - Maximum opacity
- * @returns {Function} - Function to generate gradient
- */
 export const createGradient = (color, opacity = 0.5) => {
   return (ctx) => {
     const gradient = ctx.createLinearGradient(0, 0, 0, ctx.canvas.height);
@@ -62,11 +51,6 @@ export const createGradient = (color, opacity = 0.5) => {
   };
 };
 
-/**
- * Convert hex color to RGB
- * @param {string} hex - Hex color code
- * @returns {Object} - RGB values
- */
 export const hexToRgb = (hex) => {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return result
@@ -78,22 +62,11 @@ export const hexToRgb = (hex) => {
     : null;
 };
 
-/**
- * Generate transparent version of color
- * @param {string} color - Color in hex format
- * @param {number} alpha - Alpha transparency (0-1)
- * @returns {string} - RGBA color string
- */
 export const transparentize = (color, alpha) => {
   const { r, g, b } = hexToRgb(color) || { r: 0, g: 0, b: 0 };
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
 
-/**
- * Generate color scheme for heatmap
- * @param {number} steps - Number of color steps
- * @returns {Array} - Array of color values
- */
 export const generateHeatmapColors = (steps = 10) => {
   const colors = [];
 
@@ -112,13 +85,6 @@ export const generateHeatmapColors = (steps = 10) => {
   return colors;
 };
 
-/**
- * Get color for value in range
- * @param {number} value - Value to get color for
- * @param {number} min - Minimum value in range
- * @param {number} max - Maximum value in range
- * @returns {string} - Color string
- */
 export const getColorForValue = (value, min, max) => {
   // Normalize value to range [0, 1]
   const normalizedValue = (value - min) / (max - min);
@@ -133,11 +99,6 @@ export const getColorForValue = (value, min, max) => {
   return heatmapColors[colorIndex];
 };
 
-/**
- * Generate color palette for categories
- * @param {Array} categories - Array of category names
- * @returns {Object} - Object with category:color pairs
- */
 export const generateCategoryColors = (categories) => {
   const colors = generateChartColors(categories.length);
 

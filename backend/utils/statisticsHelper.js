@@ -1,12 +1,3 @@
-/**
- * Helper functions to generate summary statistics for datasets
- */
-
-/**
- * Generate summary statistics for a dataset
- * @param {Array} data - The dataset
- * @returns {Object} - Object containing summary statistics for each column
- */
 const generateSummaryStatistics = (data) => {
   if (!data || !data.length) return {};
 

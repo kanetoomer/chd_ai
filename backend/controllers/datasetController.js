@@ -11,10 +11,6 @@ const {
 } = require("../utils/dataCleaners");
 const { generateSummaryStatistics } = require("../utils/statisticsHelper");
 
-/**
- * Upload and process datasets
- * @route POST /api/datasets/upload
- */
 const uploadDatasets = async (req, res) => {
   try {
     const uploadedFiles = req.files;
@@ -66,7 +62,7 @@ const uploadDatasets = async (req, res) => {
 
       metadata.summary = generateSummaryStatistics(data);
 
-      // 👉 Save dataset and capture the *saved* dataset
+      // Save dataset and capture the *saved* dataset
       const savedDataset = await new DatasetModel({
         user: req.user._id,
         name: file.originalname.replace(/\.[^/.]+$/, ""),
@@ -75,9 +71,8 @@ const uploadDatasets = async (req, res) => {
         fileSize: file.size,
         fileType: fileExt,
         metadata,
-      }).save(); // 🔥 Notice `.save()` directly after `new DatasetModel`
+      }).save();
 
-      // 👉 Then safely use savedDataset._id
       const datasetRows = data.map((row) => ({
         datasetId: savedDataset._id,
         row: row,
@@ -111,21 +106,17 @@ const uploadDatasets = async (req, res) => {
   }
 };
 
-/**
- * Get all datasets for the logged-in user
- * @route GET /api/datasets
- */
 const getAllDatasets = async (req, res) => {
   try {
-    // ✅ Only get datasets for the logged-in user
+    // Only get datasets for the logged-in user
     const datasets = await DatasetModel.find(
-      { user: req.user._id }, // <-- 🔥 only the user's datasets
+      { user: req.user._id },
       {
         data: 0,
         originalData: 0,
         "metadata.summary.categories": 0,
       }
-    ).sort({ createdAt: -1 }); // optional: latest first
+    ).sort({ createdAt: -1 });
 
     res.status(200).json({
       success: true,
@@ -141,10 +132,6 @@ const getAllDatasets = async (req, res) => {
   }
 };
 
-/**
- * Get dataset by ID (and paginated data)
- * @route GET /api/datasets/:id
- */
 const getDatasetById = async (req, res) => {
   try {
     const limit = parseInt(req.query.limit) || 100;
@@ -199,10 +186,6 @@ const getDatasetById = async (req, res) => {
   }
 };
 
-/**
- * Delete dataset
- * @route DELETE /api/datasets/:id
- */
 const deleteDataset = async (req, res) => {
   try {
     const dataset = await DatasetModel.findOne({
@@ -233,10 +216,6 @@ const deleteDataset = async (req, res) => {
   }
 };
 
-/**
- * Clean dataset
- * @route POST /api/datasets/:id/clean
- */
 const cleanDataset = async (req, res) => {
   try {
     const { operations, missingValueStrategy, columnsToStandardize } = req.body;
@@ -303,10 +282,6 @@ const cleanDataset = async (req, res) => {
   }
 };
 
-/**
- * Get dataset statistics
- * @route GET /api/datasets/:id/statistics
- */
 const getDatasetStatistics = async (req, res) => {
   try {
     const dataset = await DatasetModel.findOne({
@@ -334,10 +309,6 @@ const getDatasetStatistics = async (req, res) => {
   }
 };
 
-/**
- * Download dataset
- * @route GET /api/datasets/:id/download
- */
 const downloadDataset = async (req, res) => {
   try {
     const dataset = await DatasetModel.findOne({

@@ -2,10 +2,6 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
-/**
- * Register a new user
- * @route POST /api/auth/register
- */
 const register = async (req, res) => {
   try {
     const { name, email, password, organization } = req.body;
@@ -28,7 +24,7 @@ const register = async (req, res) => {
       organization,
     });
 
-    // Save user (password will be hashed in the pre-save hook)
+    // Save user
     await user.save();
 
     // Generate JWT token
@@ -56,10 +52,6 @@ const register = async (req, res) => {
   }
 };
 
-/**
- * Login user
- * @route POST /api/auth/login
- */
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -111,10 +103,6 @@ const login = async (req, res) => {
   }
 };
 
-/**
- * Get current user
- * @route GET /api/auth/me
- */
 const getMe = async (req, res) => {
   try {
     // User is already attached to req by authMiddleware
@@ -141,15 +129,8 @@ const getMe = async (req, res) => {
   }
 };
 
-/**
- * Logout user
- * @route POST /api/auth/logout
- * @note This is mostly a client-side operation (remove token),
- * but we include a server endpoint for future expansion
- */
 const logout = (req, res) => {
   try {
-    // In a more complex system, you might invalidate tokens or handle sessions
     res.status(200).json({
       success: true,
       message: "Logged out successfully",
@@ -164,10 +145,6 @@ const logout = (req, res) => {
   }
 };
 
-/**
- * Update user profile
- * @route PUT /api/auth/profile
- */
 const updateProfile = async (req, res) => {
   try {
     const { name, email, organization } = req.body;
@@ -213,10 +190,6 @@ const updateProfile = async (req, res) => {
   }
 };
 
-/**
- * Update user password
- * @route PUT /api/auth/password
- */
 const updatePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword } = req.body;
@@ -244,7 +217,7 @@ const updatePassword = async (req, res) => {
 
     // Update password
     user.password = newPassword;
-    await user.save(); // This will trigger the password hashing in the pre-save hook
+    await user.save();
 
     res.status(200).json({
       success: true,
@@ -260,11 +233,6 @@ const updatePassword = async (req, res) => {
   }
 };
 
-/**
- * Generate JWT token
- * @param {String} userId - User ID
- * @returns {String} - JWT token
- */
 const generateToken = (userId) => {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRE || "30d",

@@ -1,7 +1,3 @@
-/**
- * Custom parser for .data files
- * Handles various data file formats
- */
 const parse = (fileContent) => {
   // Split the content by lines
   const lines = fileContent
@@ -45,9 +41,6 @@ const parse = (fileContent) => {
   return data;
 };
 
-/**
- * Detect the delimiter used in the data file
- */
 const detectDelimiter = (line) => {
   const delimiters = [",", "\t", ";", "|"];
   let maxCount = 0;
@@ -64,9 +57,6 @@ const detectDelimiter = (line) => {
   return detectedDelimiter;
 };
 
-/**
- * Check if a string value can be converted to a number
- */
 const isNumeric = (value) => {
   return !isNaN(parseFloat(value)) && isFinite(value);
 };

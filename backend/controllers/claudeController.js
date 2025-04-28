@@ -2,10 +2,6 @@ const axios = require("axios");
 const DatasetModel = require("../models/Dataset");
 const DatasetRowModel = require("../models/DatasetRow");
 
-/**
- * Analyze a dataset using Claude AI
- * @route POST /api/claude/analyze
- */
 const analyzeDataset = async (req, res) => {
   try {
     const { datasetId } = req.body;
@@ -64,7 +60,7 @@ const analyzeDataset = async (req, res) => {
       analysis: claudeResponse,
     });
   } catch (error) {
-    console.error("❌ Error in analyzeDataset:", error.message);
+    console.error("Error in analyzeDataset:", error.message);
     res.status(500).json({
       success: false,
       message: "Error analyzing dataset",
@@ -73,10 +69,6 @@ const analyzeDataset = async (req, res) => {
   }
 };
 
-/**
- * Generate insights using Claude AI
- * @route POST /api/claude/insights
- */
 const generateInsights = async (req, res) => {
   try {
     const { datasetId, visualizationData } = req.body;
@@ -110,7 +102,7 @@ const generateInsights = async (req, res) => {
       insights: claudeResponse,
     });
   } catch (error) {
-    console.error("❌ Error in generateInsights:", error.message);
+    console.error("Error in generateInsights:", error.message);
     res.status(500).json({
       success: false,
       message: "Error generating insights",
@@ -119,10 +111,6 @@ const generateInsights = async (req, res) => {
   }
 };
 
-/**
- * Explain a visualization using Claude AI
- * @route POST /api/claude/explain-visualization
- */
 const explainVisualization = async (req, res) => {
   try {
     const { visualization, context } = req.body;
@@ -152,7 +140,7 @@ const explainVisualization = async (req, res) => {
       explanation: claudeResponse,
     });
   } catch (error) {
-    console.error("❌ Error in explainVisualization:", error.message);
+    console.error("Error in explainVisualization:", error.message);
     res.status(500).json({
       success: false,
       message: "Error explaining visualization",
@@ -161,9 +149,6 @@ const explainVisualization = async (req, res) => {
   }
 };
 
-/**
- * Helper function to call Claude AI API
- */
 const callClaudeAPI = async (prompt) => {
   try {
     const response = await axios.post(
@@ -191,7 +176,7 @@ const callClaudeAPI = async (prompt) => {
     return response.data.content?.[0]?.text || "No response from Claude.";
   } catch (error) {
     console.error(
-      "❌ Error calling Claude API:",
+      "Error calling Claude API:",
       error.response?.data || error.message
     );
     throw new Error("Failed to get response from Claude AI");

@@ -20,7 +20,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please add a password"],
     minlength: [6, "Password must be at least 6 characters"],
-    select: false, // Don't return password in queries by default
+    select: false,
   },
   role: {
     type: String,
@@ -40,7 +40,6 @@ const UserSchema = new mongoose.Schema({
 
 // Encrypt password using bcrypt
 UserSchema.pre("save", async function (next) {
-  // Only hash password if it's been modified (or is new)
   if (!this.isModified("password")) {
     return next();
   }
