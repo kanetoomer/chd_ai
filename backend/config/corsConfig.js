@@ -3,7 +3,7 @@ const corsOptions = {
     // Allow requests from the frontend or API development tools
     const allowedOrigins = [
       "http://localhost:5173", // For local dev
-      "https://chd-ai.onrender.com", // Your frontend production URL
+      "https://chd-ai.onrender.com/api", // Your frontend production URL
     ];
 
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
